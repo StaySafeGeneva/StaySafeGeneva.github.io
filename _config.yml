@@ -32,7 +32,7 @@ navbar-links:
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
     - Authors page: "http://deanattali.com"
-  Home:  "https://lucazampieri.github.io/"
+  Home:  "https://LucaZampieri.github.io/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -47,8 +47,8 @@ avatar: "/img/avatar-icon.png"
 # By default, the navigation bar and footer have a light gray background, and the main page
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
- navbar-col: "orange"
- navbar-img: "/img/bgimage.png"
+# navbar-col: "orange"
+# navbar-img: "/img/bgimage.png"
 # footer-col: "blue"
 # footer-img: "/img/bgimage.png"
 # page-col: "#FF0000"
@@ -61,8 +61,8 @@ avatar: "/img/avatar-icon.png"
 author:
   name: Luca Zampieri
   email: "youremail@domain.com"
-  facebook: yourname  # eg. daattali
-  github: yourname    # eg. daattali
+  facebook: Luca Zampieri  # eg. daattali
+  github: LucaZampieri    # eg. daattali
   twitter: yourname   # eg. daattali
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
@@ -108,7 +108,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "2.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
