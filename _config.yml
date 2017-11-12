@@ -17,15 +17,14 @@ baseurl: ""
 title: Luca Zampieri
 
 # Short description of your site
-description: A simple page!
+description: I like colors
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  ADA Project: 
-    - project 1: "www.google.com" 
+  ADA Project: "StaySafe"
   Resources:
     - The correspong github file: "https://github.com/LucaZampieri/LucaZampieri.github.io/"
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
