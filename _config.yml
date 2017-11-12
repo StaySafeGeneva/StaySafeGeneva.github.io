@@ -24,7 +24,8 @@ description: A simple page!
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  ADA Project: "Stay Safe" 
+  ADA Project: 
+    - project 1: "www.google.com" 
   Resources:
     - The correspong github file: "https://github.com/LucaZampieri/LucaZampieri.github.io/"
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
