@@ -24,6 +24,7 @@ description: A simple page!
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  ADA Project: "Stay Safe" 
   Resources:
     - The correspong github file: "https://github.com/LucaZampieri/LucaZampieri.github.io/"
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
@@ -57,7 +58,7 @@ avatar: "/img/avatar-icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Luca Zampieri
   email: "youremail@domain.com"
   facebook: yourname  # eg. daattali
   github: yourname    # eg. daattali
