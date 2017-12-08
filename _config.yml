@@ -26,8 +26,8 @@ navbar-links:
   About US: "aboutus"
   lala : "lala"
   ADA Project: 
-    - "StaySafe"
-    - "lala"
+    - Stay Safe: "StaySafe"
+    - lala: "lala"
   References:
     - The correspong github file: "https://github.com/StaySafeGeneva/StaySafeGeneva.github.io/"
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
