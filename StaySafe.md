@@ -7,7 +7,7 @@ subtitle: Project for the course "ADA" given by EPFL
 # Abstract
 
 In this project we are gonna tell you a story of safety in the streets of Geneva.
-link:
+Link:
 [Link Text](http://nbviewer.jupyter.org/github/LucaZampieri/ADA_homework_LMX/blob/master/LMX_Project/05_Viz_of_accidents_distribution_on_the_territory.ipynb)
 
 ## Plan:
