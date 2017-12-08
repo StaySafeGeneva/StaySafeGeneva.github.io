@@ -24,6 +24,7 @@ description: Website for the Project of Applied Data Analysis of EPFL, year 2017
 # List of links in the navigation bar
 navbar-links:
   About US: "aboutus"
+  lala : "lala"
   ADA Project: "StaySafe"
   References:
     - The correspong github file: "https://github.com/StaySafeGeneva/StaySafeGeneva.github.io/"
