@@ -8,7 +8,7 @@ url: "http://StaySafeGeneva.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-#url: "http://LucaZampieri.github.io/StaySafe"
+#url: "http://StaySafeGeneva.github.io/projectname"
 #baseurl: "/StaySafe"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
@@ -23,15 +23,14 @@ description: Website for the Project of Applied Data Analysis of EPFL, year 2017
 
 # List of links in the navigation bar
 navbar-links:
-  About US: "aboutme"
+  About US: "aboutus"
   ADA Project: "StaySafe"
-  Resources:
-    - The correspong github file: "https://github.com/LucaZampieri/LucaZampieri.github.io/"
+  References:
+    - The correspong github file: "https://github.com/StaySafeGeneva/StaySafeGeneva.github.io/"
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
-    - Authors page: "http://deanattali.com"
-  Home:  "https://LucaZampieri.github.io/"
+  Home:  "https://StaySafeGeneva.github.io/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -58,7 +57,7 @@ avatar: "/img/avatar-icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Luca Zampieri
+  name: LucaZampieri & Gilcompa & MartMilani
   email: "youremail@domain.com"
   facebook: Luca Zampieri  # eg. daattali
   github: LucaZampieri    # eg. daattali
