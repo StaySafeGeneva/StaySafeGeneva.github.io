@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stay Safe Geneva!
-subtitle: I like colors
+subtitle: An analysis of the accidents in Geneva
 use-site-title: true
 ---
 # This is the front page that I still have to write.. for the moment i just let the basic blog posts and we will see
