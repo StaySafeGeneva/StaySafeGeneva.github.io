@@ -1,0 +1,20 @@
+---
+layout: page
+title: Races
+permalink: /races/
+---
+
+<div id="searchfield">
+  <h3>Search for a race... <a id="randomlink" onclick="displayRandom();">or
+      feel lucky !</a></h3>
+  <form>
+    <input type="text" name="race" class="biginput" id="autocomplete"
+    value="Type a location or a name here..." 
+    onblur="if (this.value==''){this.value='Type a location or a name here...';}"
+    onfocus="if (this.value!=''){this.value='';}">
+  </form>
+</div>
+
+<div id="outputbox">
+  <p id="outputcontent">Choose a race and the results will display here.</p>
+</div>
