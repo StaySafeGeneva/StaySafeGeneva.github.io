@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About Us
-subtitle: Beyond the team
+title: About
+subtitle: The team and beyond
 ---
-
+### Members
 * Xavy aka "The Catalan"
 * Martino aka "The Climber"
 * Luca aka "The Reader"
@@ -20,3 +20,7 @@ See our respective pages:
 * [Xavy](https://people.epfl.ch/xavier.gilcompanys?lang=en)
 * [Martino](https://people.epfl.ch/martino.milani?lang=en)
 * [Luca](https://people.epfl.ch/luca.zampieri?lang=en)
+
+### The context of this analysis
+
+This project has been realised for the course 

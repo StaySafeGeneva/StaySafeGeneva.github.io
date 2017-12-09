@@ -4,11 +4,36 @@ title: Stay Safe Geneva!
 subtitle: An analysis of the accidents in Geneva
 use-site-title: true
 ---
-# This is the front page that I still have to write.. for the moment i just let the basic blog posts and we will see
+# Front page
+
+It still has to be written!
+
+### Ideas
+- What about as logo a half swiss cross and half health cross?
+- Maps? We should decide soon! 
+
+### To the team:
+- In the **pages** folder you will find a markdown file with your name. Feel free to experiment in it and if you feel so begin to write your part. Note that you can also write it in jupyter notebook and then copy and paste it whenever you feel like it!.  
+**NOTE:** If you write it in jupyter notebook, it will be about the same, but try out sometimes that the sintax is the same than here: e.g. if you want to include latex (like it is easily done in jupyter notebook) we should include a piece of code for it, so keep me updated! :)
+- Feel free to modify the _about.md_ in **pages** folder as well, it is written by the team, for the team ;)
+- If you wish you can also modify this file (i.e. _index.md_ in the global directory) but please be careful!
+- For the other files, if you are not sure of what you are doing, do not hesitate to contact me :) you can also experiment on your local copy of the website!  
+
+### Special thanks:
+
+- Leaflet: [http://leafletjs.com/examples.html]http://leafletjs.com/examples.html
+-bokeh plots on jekyll: [https://briancaffey.github.io/2017/01/23/bokeh-plots-on-jekyll.html]
+(https://briancaffey.github.io/2017/01/23/bokeh-plots-on-jekyll.html)  
+- bokeh doc used intensivly: [http://bokeh.pydata.org/en/latest/docs/user_guide/embed.html#components]
+(http://bokeh.pydata.org/en/latest/docs/user_guide/embed.html#components)  
+- The Texas interactive plot from bokeh[https://bokeh.pydata.org/en/latest/docs/gallery/texas.html]
+(https://bokeh.pydata.org/en/latest/docs/gallery/texas.html)  
 
 
+[//]:#(---------- END OF WHAT IS VISIBLE ----------------)
 
-
+[//]:#(The rest here is useless for the moment, it is the code for the posts :p
+  i.e. if we wanna be able to make posts on our website we should put back index.html :) )
 
 <div class="posts-list">
   {% for post in paginator.posts %}
