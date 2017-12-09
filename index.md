@@ -10,7 +10,7 @@ It still has to be written!
 
 ### Ideas
 - What about as logo a half swiss cross and half health cross?
-- Maps? We should decide soon! 
+- Maps? We should decide soon!
 
 ### To the team:
 - In the **pages** folder you will find a markdown file with your name. Feel free to experiment in it and if you feel so begin to write your part. Note that you can also write it in jupyter notebook and then copy and paste it whenever you feel like it!.  
@@ -21,13 +21,11 @@ It still has to be written!
 
 ### Special thanks:
 
-- Leaflet: [http://leafletjs.com/examples.html]http://leafletjs.com/examples.html
--bokeh plots on jekyll: [https://briancaffey.github.io/2017/01/23/bokeh-plots-on-jekyll.html]
-(https://briancaffey.github.io/2017/01/23/bokeh-plots-on-jekyll.html)  
-- bokeh doc used intensivly: [http://bokeh.pydata.org/en/latest/docs/user_guide/embed.html#components]
-(http://bokeh.pydata.org/en/latest/docs/user_guide/embed.html#components)  
-- The Texas interactive plot from bokeh[https://bokeh.pydata.org/en/latest/docs/gallery/texas.html]
-(https://bokeh.pydata.org/en/latest/docs/gallery/texas.html)  
+- Leaflet [examples](http://leafletjs.com/examples.html)
+- [Bokeh plots and jekyll](https://briancaffey.github.io/2017/01/23/bokeh-plots-on-jekyll.html)  
+- Bokeh doc used intensivly, espescially about [components](http://bokeh.pydata.org/en/latest/docs/user_guide/embed.html#components)  
+- The [Texas interactive plot](https://bokeh.pydata.org/en/latest/docs/gallery/texas.html) from bokeh
+- Some [Basis](https://www.w3schools.com/html/html_css.asp) for understanding HTML, CSS and JS
 
 
 [//]:#(---------- END OF WHAT IS VISIBLE ----------------)

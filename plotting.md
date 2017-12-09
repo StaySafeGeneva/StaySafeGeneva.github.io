@@ -12,7 +12,7 @@ For example:
 * Red:  
 
 <div class="bk-root">
-  <div class="bk-plotdiv" id="3b11fd2c-5135-4b3f-b61f-b277a8176c23"></div>\n
+  <div class="bk-plotdiv" id="3b11fd2c-5135-4b3f-b61f-b277a8176c23"></div>
 </div>
 
 * Blue:  
