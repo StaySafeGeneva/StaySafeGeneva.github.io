@@ -23,12 +23,13 @@ description: Website for the Project of Applied Data Analysis of EPFL, year 2017
 
 # List of links in the navigation bar
 navbar-links:
-  About US: "aboutus"
-  ADA Project: 
-    - Milani: "Milani"
-    - Gilcompa: "Gilcompa"
-    - Zampieri: "Zampieri"
+  About US: "pages/aboutus"
   Test: "test"
+  lala: "lala"
+  ADA Project:
+    - Milani:   "pages/Milani"
+    - Gilcompa: "pages/Gilcompa"
+    - Zampieri: "pages/Zampieri"
   References:
     - The correspong github file: "https://github.com/StaySafeGeneva/StaySafeGeneva.github.io/"
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
@@ -62,55 +63,23 @@ avatar: "/img/avatar-icon.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: LucaZampieri & Gilcompa & MartMilani
-  email: "youremail@domain.com"
-  facebook: Luca Zampieri  # eg. daattali
   github: LucaZampieri    # eg. daattali
-  twitter: lalala   # eg. daattali
-  reddit: yourname    # eg. daattali
-  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: yourname  # eg. daattali
-  xing: yourname      # eg. daattali
-  stackoverflow: yourlink  # eg. "3943160/daattali"
-  snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
-  youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
-  telephone: yourphone   # eg. +14159998888
-  steam: yourname     # eg. daattali
-  twitch: yourname    # eg. daattali
-  yelp: yourname      # eg. daattali
+  linkedin: Luca Zampieri  # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
-  facebook: true
   email: true
-  twitter: true
-  google-plus: false
   github: true
-  reddit: false
   linkedin: false
-  xing: false
-  stackoverflow: false
-  snapchat: false
-  instagram: false
-  youtube: false
-  spotify: false
-  telephone: false
-  steam: false
-  twitch: false
-  yelp: false
+
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  google: false
   linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "2.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "www.epfl.ch"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments

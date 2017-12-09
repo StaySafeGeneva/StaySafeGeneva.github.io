@@ -1,15 +1,102 @@
 ---
-layout: page
-title: Races
-permalink: /races/
+layout: leaflet_test
+title: test
+permalink: /test/
 ---
 
+<hr>
+<!-- MAP1 -->
+<div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+<script>
+  // create the map object and set the cooridnates of the initial view:
+  var map = L.map('map').setView([51.4833, -3.1833], 10);
+
+  // create the tile layer with correct attribution:
+  L.tileLayer('http://{s}.tiles.mapbox.com/v3/jamesg87.goac2bf1/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+      maxZoom: 18
+  }).addTo(map);
+</script>
+
+
+<hr>
+<!-- MAP2 -->
+<div id="mapid" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+
+<script>
+  var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+
+  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.streets',
+    accessToken: 'pk.eyJ1IjoiYWxha2EiLCJhIjoiY2phemtjd2h4MWd2eDJxbzFwOTQ1bjc5OSJ9.u8gT-iVaSPBwONkYMXQp0Q'
+  }).addTo(mymap);
+
+  var marker = L.marker([51.5, -0.09]).addTo(mymap);
+  var circle = L.circle([51.508, -0.11], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+  }).addTo(mymap);
+
+  var polygon = L.polygon([
+    [51.509, -0.08],
+    [51.503, -0.06],
+    [51.51, -0.047]
+  ]).addTo(mymap);
+
+  marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+  circle.bindPopup("I am a circle.");
+  polygon.bindPopup("I am a polygon.");
+
+  var popup = L.popup()
+    .setLatLng([51.5, -0.09])
+    .setContent("I am a standalone popup.")
+    .openOn(mymap);
+
+    function onMapClick(e) {
+      alert("You clicked the map at " + e.latlng);
+  }
+
+  mymap.on('click', onMapClick);
+
+  var popup = L.popup();
+
+  function onMapClick(e) {
+      popup
+          .setLatLng(e.latlng)
+          .setContent("You clicked the map at " + e.latlng.toString())
+          .openOn(mymap);
+  }
+
+mymap.on('click', onMapClick);
+</script>
+
+<hr>
+<div id="mapid" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+
+<script>
+var mapboxAccessToken = {your access token here};
+var map = L.map('map').setView([37.8, -96], 4);
+
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + mapboxAccessToken, {
+    id: 'mapbox.light',
+    attribution: ...
+}).addTo(map);
+
+L.geoJson(statesData).addTo(map);
+</script>
+
+<hr>
+
 <div id="searchfield">
-  <h3>Search for a race... <a id="randomlink" onclick="displayRandom();">or
+  <h3>Search for a race... <a id="randomlink" onclick="drawMap();">or
       feel lucky !</a></h3>
   <form>
     <input type="text" name="race" class="biginput" id="autocomplete"
-    value="Type a location or a name here..." 
+    value="Type a location or a name here..."
     onblur="if (this.value==''){this.value='Type a location or a name here...';}"
     onfocus="if (this.value!=''){this.value='';}">
   </form>
@@ -18,3 +105,33 @@ permalink: /races/
 <div id="outputbox">
   <p id="outputcontent">Choose a race and the results will display here.</p>
 </div>
+
+<hr>
+
+
+<div>
+<input type="button" value="click me" onclick="drawMap()">
+</div>
+<script type="text/javascript">
+/* Draw a map centered on the race location if coordinates are known */
+function drawMap() {
+    // Get latitude and longitude
+    var latitude = 40
+    var longitude = 40
+
+    if (latitude!=null && longitude!=null) {
+      myMap = L.map('map').setView([latitude,longitude], 10);
+
+      // Add actual layer
+      var Stamen_Terrain = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.{ext}', {
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        subdomains: 'abcd',
+        minZoom: 0,
+        maxZoom: 18,
+        ext: 'png'
+      }).addTo(myMap);
+      // Add marker
+      var marker = L.marker([latitude, longitude]).addTo(myMap);
+    }
+}
+</script>
