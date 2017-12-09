@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Exploratory statistics</title>
+
+  <meta name="author" content="LucaZampieri & Gilcompa & MartMilani" />
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Stay Safe Geneva - Website for the Project of Applied Data Analysis of EPFL, year 2017." href="/feed.xml" />
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Exploratory statistics" />
+  
+
+   
+  <meta property="og:description" content="We present here an exploratory analysis of the full dataset. The workflow we try to follow in this study is the one suggested in this [useful paper](http://science.sciencemag.org/content/347/6228/1314.full). For more details about how the analysis is done, please refer to this [Jupyter notebook](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/exploratory_full_sport_dataset.ipynb) hosted on Github. ### An overview in video...">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/lala/" />
+  <link rel="canonical" href="http://localhost:4000/lala/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/SwissRedCross.png" />
+  
+  
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Exploratory statistics" />
+  
+
+  
+  <meta name="twitter:description" content="We present here an exploratory analysis of the full dataset. The workflow we try to follow in this study is the one suggested in this [useful paper](http://science.sciencemag.org/content/347/6228/1314.full). For more details about how the analysis is done, please refer to this [Jupyter notebook](https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/exploratory_full_sport_dataset.ipynb) hosted on Github. ### An overview in video...">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/SwissRedCross.png" />
+  
+
+</head>
+
+
+  <body>
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Stay Safe Geneva</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/pages/about">About</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Tests</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="/test">Test leaflet</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="/plotting">Test Bokeh</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="/lala">lala</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">ADA Project</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="/pages/Milani">Milani</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="/pages/Gilcompa">Gilcompa</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="/pages/Zampieri">Zampieri</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">References</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="https://github.com/StaySafeGeneva/StaySafeGeneva.github.io/">The correspong github file</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://www.markdowntutorial.com/">Learn markdown</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="https://pages.github.com/">GitHub Pages</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000 ">
+	      <img class="avatar-img" src="/img/SwissRedCross.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Exploratory statistics</h1>
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <p>We present here an exploratory analysis of the full dataset. The workflow we try
+to follow in this study is the one suggested in this <a href="http://science.sciencemag.org/content/347/6228/1314.full">useful
+paper</a>.</p>
+
+<p>For more details about how the analysis is done, please refer to this <a href="https://nbviewer.jupyter.org/github/ggrrll/hop_suisse_ada_project_public/blob/master/6-data_analysis/exploratory_full_sport_dataset.ipynb">Jupyter
+notebook</a>
+hosted on Github.</p>
+
+<h3 id="an-overview-in-video">An overview in video</h3>
+
+<p>We first try to give an overwiew of the data in video, following the approach of
+this great example : <a href="https://youtu.be/jbkSRLYSojo">200 Countries, 200 Years, 4
+Minutes</a>. Here, we use the format to display
+jointly :</p>
+
+<ul>
+  <li>the pace (on the Y axis),</li>
+  <li>the experience of the runners (<em>ie.</em> whether they are beginners or experts, on
+the X axis),</li>
+  <li>different races and their number of competitors (dots and their size),</li>
+  <li>the runners sex (with colors),</li>
+  <li>the runners age.</li>
+</ul>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MyvbnOXHShw" frameborder="0" allowfullscreen=""></iframe>
+</center>
+
+<p>Conclusions on this video:</p>
+
+<ul>
+  <li>Young runners run on shorter distances;</li>
+  <li>Men pace is always a bit lower than women pace;</li>
+  <li>Pace is higher for very young and old runners, with a minimum around 20 years old;</li>
+  <li>There are lots of new young runners (&lt;12 years old) for low distance races, but most of the
+new runners are between 15 and 25 years old.</li>
+  <li>The number of new runners decreases with the age, together with the total number of runners
+of a certain age.</li>
+</ul>
+
+<h2 class="no_toc" id="table-of-contents">Table of contents</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#an-overview-in-video" id="markdown-toc-an-overview-in-video">An overview in video</a></li>
+  <li><a href="#note-on-unique-runners" id="markdown-toc-note-on-unique-runners">Note on unique runners</a></li>
+  <li><a href="#statistics-across-time" id="markdown-toc-statistics-across-time">Statistics across time</a>    <ul>
+      <li><a href="#number-of-runners-across-time-by-sex" id="markdown-toc-number-of-runners-across-time-by-sex">Number of runners across time, by sex</a></li>
+      <li><a href="#number-of-runners-across-time-by-distance" id="markdown-toc-number-of-runners-across-time-by-distance">Number of runners across time, by distance</a></li>
+      <li><a href="#distribution-of-the-number-of-editions-per-race" id="markdown-toc-distribution-of-the-number-of-editions-per-race">Distribution of the number of editions per race</a></li>
+      <li><a href="#age-across-editions" id="markdown-toc-age-across-editions">Age across editions</a></li>
+    </ul>
+  </li>
+  <li><a href="#statistics-on-performance-vs-age" id="markdown-toc-statistics-on-performance-vs-age">Statistics on performance <em>vs</em> age</a>    <ul>
+      <li><a href="#marathon" id="markdown-toc-marathon">Marathon</a></li>
+      <li><a href="#half-marathon--20km" id="markdown-toc-half-marathon--20km">Half marathon / 20km</a></li>
+      <li><a href="#10km" id="markdown-toc-10km">10km</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="note-on-unique-runners">Note on unique runners</h2>
+
+<p>Given the significant size of the dataset, we encountered some difficulties when
+trying to distinguish runners according to their attributes, given that names
+are not unique.</p>
+
+<p>Checking the demographics of a few races, we could notice that there were even
+some namesakes born the same year but with different residence cities. At first
+glance this combination (name, birthyear and residence city) could have been
+used to determine unique runners, <em>however</em> this does not necessarily works :
+some people might just change residence during their running career (indeed we
+can find that by cross-checking our dataset with other resources on the web) and
+be idientified as two different people.</p>
+
+<p>We have therefore decided to stick to a simple rule and to distinguish runners
+based on their <em>name</em> <strong>and</strong> <em>birthyear</em> combination.</p>
+
+<h2 id="statistics-across-time">Statistics across time</h2>
+
+<h3 id="number-of-runners-across-time-by-sex">Number of runners across time, by sex</h3>
+
+<p>The following graph shows the number of runners across time separated
+by sex.</p>
+
+<div id="runners-count-sex"></div>
+
+<p>We can observe a clear <em>increase</em> in time of the number of participants
+in the races, for both sex, across all Switzerland.</p>
+
+<h3 id="number-of-runners-across-time-by-distance">Number of runners across time, by distance</h3>
+
+<p>The following graph shows the number of runners across time separated
+by distances of the races. We only consider the most relevant distances,
+that is the ones with a larger number of runners.</p>
+
+<div id="runners-count-distance"></div>
+
+<p>Interestingly in the last 3 years, in terms of number of runners, it
+seems to have been:</p>
+
+<ul>
+  <li>
+    <p>an <em>increase</em> for the 10 km;</p>
+  </li>
+  <li>
+    <p>quite a <em>stable</em> situation for the half-marathon;</p>
+  </li>
+  <li>
+    <p>a <em>decrease</em> for the marathon.</p>
+  </li>
+</ul>
+
+<h3 id="distribution-of-the-number-of-editions-per-race">Distribution of the number of editions per race</h3>
+
+<p>The following graph shows the number of races with respect to the
+number of times these races took place.</p>
+
+<div id="editions-distribution"></div>
+
+<p>Consequently, most races have been organized at most twice. The most
+frequent race in history is Chäsitzerlouf - Kehrsatz, which has been
+organized 16 times. Right after, with 15 editions, come 20km de Lausanne,
+Basler Stadtlauf, Frauenfelder, Gurtenclassic - Wabern, Kerzerslauf, and
+Schweizer Frauenlauf Bern.</p>
+
+<h3 id="age-across-editions">Age across editions</h3>
+
+<p>For this study we use the first 20 races with the largest number of
+runners.</p>
+
+<p>Select a race: <select id="race" onchange="drawAgesAcrossEditions();"></select></p>
+<div id="age-popular-races"></div>
+
+<p>After performing an
+<a href="http://vsp.pnnl.gov/help/Vsample/Design_Trend_Mann_Kendall.htm">Mann-Kendall</a>
+test (with p-value threshold at 0.05), we conclude that for many of the races analysed, it is not possible to
+claim a global trend for the runners’ mean age, across time. The test is
+affected by the lack of data points. We have however also obtained some
+significant results:</p>
+
+<ul>
+  <li>
+    <p>there is an <em>increase</em> of the runner’s mean age for ASICS Bremgarter
+Reusslauf, Jungfrau-Marathon and Kerzerslauf;</p>
+  </li>
+  <li>
+    <p>there is a <em>decrease</em> of the runner’s mean age for 20km de Lausanne,
+Course de l’Escalade, Hallwilerseelauf, Luzerner Stadtlauf,
+Morat-Fribourg, Thuner Stadtlauf and Zürcher Silvesterlauf.</p>
+  </li>
+</ul>
+
+<h2 id="statistics-on-performance-vs-age">Statistics on performance <em>vs</em> age</h2>
+
+<p>Note that we only consider races with the higher number of runners, and
+categories with standard running distances: 10km, 20km/half marathon
+and full marathon.</p>
+
+<p>We will see that a U-shape is observed for the most popular events,
+especially when enough data is available. This shape becomes more
+visible with longer distances (full marathon), while it somehow fades
+out for shorter distances, like 10 km.</p>
+
+<h3 id="marathon">Marathon</h3>
+
+<p>The following graph represents the median time the runners took to finish
+a full marathon with respect to the age of the runner, for different
+races.</p>
+
+<p>Select a race: <select id="race-42km" onchange="drawTimeWrtAge(&quot;42km&quot;);"></select></p>
+<div id="timevsage-42km"></div>
+
+<h3 id="half-marathon--20km">Half marathon / 20km</h3>
+
+<p>The following graph represents the median time the runners took to finish
+a half marathon with respect to the age of the runner, for different
+races.</p>
+
+<p>Select a race: <select id="race-21km" onchange="drawTimeWrtAge('21km');"></select></p>
+<div id="timevsage-21km"></div>
+
+<h3 id="10km">10km</h3>
+<p>The following graph represents the median time the runners took to finish
+a 10km race with respect to the age of the runner, for different races.</p>
+
+<p>Select a race: <select id="race-10km" onchange="drawTimeWrtAge('10km');"></select></p>
+<div id="timevsage-10km"></div>
+
+<script type="text/javascript">
+
+function drawCountAcrossTime(category) {
+  // category = 'sex' or 'distance'
+  var data = null
+  var categData = data["runners-count-"+category]
+  var cols = []
+  var xsValues = {}
+  for (let key of Object.keys(categData)) {
+    var count = categData[key]["counts"]
+    var years = categData[key]["years"]
+    count.unshift(key)
+    years.unshift(key+"_x")
+    cols.push(count)
+    cols.push(years)
+    xsValues[key] = key+"_x"
+  }
+  var chart = c3.generate({
+    bindto: '#runners-count-'+category,
+    data: {
+      xs: xsValues,
+      columns: cols,
+      type: 'bar'
+    },
+    axis: {
+		x: {
+			label: {text:'Year',position:'outer-right'}
+		},
+		y: {
+			label: {text:'Total number of runners',position:'inner-center'}
+		}
+	}
+  })
+}
+
+function drawEventsCount() {
+  var data = null
+  var eventsData = data["events-count"]
+  var xsValues = eventsData.months
+  xsValues.unshift("months")
+  var counts = eventsData.count
+  counts.unshift("counts")
+  var chart = c3.generate({
+    bindto: '#events-count',
+    data: {
+      x: 'months',
+      columns: [xsValues, counts],
+      type: 'scatter'
+    }
+  })
+}
+
+function drawEditionsDistribution() {
+  var data = null
+  var editionsData = data["editions-distribution"]
+  var xsValues = editionsData["editions-per-race"]
+  xsValues.unshift('editions per race')
+  var counts = editionsData.count
+  counts.unshift("counts")
+  var chart = c3.generate({
+    bindto: '#editions-distribution',
+    data: {
+      x: 'editions per race',
+      columns: [xsValues, counts],
+      type: 'bar'
+    },
+    axis: {
+      x: {label: {text: 'Number of editions per race', position:'outer-right'}},
+      y: {label: {text: 'Number of races', position: 'outer-center'}}
+	}
+  })
+}
+
+function fillRaceSelect() {
+  var data = null
+  Object.keys(data).forEach(function(name) {
+    $('#race').append(new Option(name, name));
+  })
+}
+
+function fillRaceSelect2(km) {
+	var data = null
+	Object.keys(data[km]["men"]).forEach(function(name) {
+		$('#race-'+km).append(new Option(name, name));
+	})
+}
+
+function drawAgesAcrossEditions() {
+  var selectedRace = $('#race').val()  
+  var data = null
+  var raceData = data[selectedRace]
+  var meanAges = raceData['mean_ages']
+  var medianAges = raceData['median_ages']
+  meanAges.unshift("mean age")
+  medianAges.unshift("median age")
+  var years = raceData.years
+  years.unshift("year")
+  var chart = c3.generate({
+    bindto: '#age-popular-races',
+    data: {
+      x: 'year',
+      columns: [years, meanAges, medianAges]
+    },
+    axis: {
+			x: {
+				label: {text: 'Race year', position:'outer-right'}
+			},
+			y: {
+				label: {text: 'Runners age', position: 'outer-center'}
+			}
+		}
+  })
+}
+
+function drawTimeWrtAge(km) {
+	var selectedRace = $('#race-'+km).val()
+	var data = null
+	data = data[km]
+
+	var menRaceData = data["men"][selectedRace]
+	var womenRaceData = data["women"][selectedRace]
+	var menMedianTimes = menRaceData.median_times
+	menMedianTimes.unshift("men")
+	var womenMedianTimes = womenRaceData.median_times
+	womenMedianTimes.unshift("women")
+	var menAges = menRaceData.ages
+	menAges.unshift("men age")
+	var womenAges = womenRaceData.ages
+	womenAges.unshift("women age")
+
+	var chart = c3.generate({
+		bindto: '#timevsage-'+km,
+		data: {
+			xs: {
+				'men': 'men age',
+				'women': 'women age'
+			},
+			columns: [menAges, womenAges, menMedianTimes, womenMedianTimes]
+		},
+		axis: {
+			x: {
+				label: {text:'Runners age',position:'outer-right'}
+			},
+			y: {
+				label: {text: 'Median time [min]', position: 'inner-center'}
+			}
+		}
+	});
+
+}
+
+drawCountAcrossTime('sex')
+drawCountAcrossTime('distance')
+drawEventsCount()
+drawEditionsDistribution()
+fillRaceSelect()
+drawAgesAcrossEditions()
+fillRaceSelect2("42km")
+drawTimeWrtAge("42km")
+fillRaceSelect2("21km")
+drawTimeWrtAge("21km")
+fillRaceSelect2("10km")
+drawTimeWrtAge("10km")
+</script>
+
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+          <li>
+            <a href="https://github.com/LucaZampieri" title="GitHub">
+              <span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="sr-only">GitHub</span>
+            </a>
+          </li>
+          
+		  
+	  
+      
+		  
+		  
+		  
+		  
+      
+      
+      
+      
+      
+		  
+      
+      
+      
+        </ul>
+        <p class="copyright text-muted">
+		  LucaZampieri & Gilcompa & MartMilani
+		  &nbsp;&bull;&nbsp;
+		  2017
+
+		  
+		  &nbsp;&bull;&nbsp;
+		  <a href="http://localhost:4000">www.epfl.ch</a>
+		  
+	    </p>
+	        <!-- Please don't remove this, keep my open source work credited :) -->
+		<p class="theme-by text-muted">
+		  Theme by
+		  <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+		</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+
+  
+  </body>
+</html>

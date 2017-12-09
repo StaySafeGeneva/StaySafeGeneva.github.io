@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 -->
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Stay Safe Geneva - Website for the Project of Applied Data Analysis of EPFL, year 2017.</title>
+
+  <meta name="author" content="LucaZampieri & Gilcompa & MartMilani" />
+
+  
+  <meta name="description" content="An analysis of the accidents in Geneva">
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Stay Safe Geneva - Website for the Project of Applied Data Analysis of EPFL, year 2017." href="/feed.xml" />
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    
+      <link rel="stylesheet" href="/css/bootstrap-social.css" />
+    
+      <link rel="stylesheet" href="/css/main.css" />
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+    
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Stay Safe Geneva!" />
+  
+
+   
+  <meta property="og:description" content="An analysis of the accidents in Geneva">
+  
+
+
+  <meta property="og:type" content="website" />
+
+  
+  <meta property="og:url" content="http://localhost:4000/" />
+  <link rel="canonical" href="http://localhost:4000/" />
+  
+
+  
+  <meta property="og:image" content="http://localhost:4000/img/SwissRedCross.png" />
+  
+  
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:creator" content="@" />
+
+  
+  <meta name="twitter:title" content="Stay Safe Geneva!" />
+  
+
+  
+  <meta name="twitter:description" content="An analysis of the accidents in Geneva">
+  
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/SwissRedCross.png" />
+  
+
+</head>
+
+
+  <body>
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="http://localhost:4000">Stay Safe Geneva</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/pages/about">About</a>
+
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">Tests</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="/test">Test leaflet</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="/plotting">Test Bokeh</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="/lala">lala</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">ADA Project</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="/pages/Milani">Milani</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="/pages/Gilcompa">Gilcompa</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="/pages/Zampieri">Zampieri</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+        
+          <li class="navlinks-container">
+            <a class="navlinks-parent" href="javascript:void(0)">References</a>
+            <div class="navlinks-children">
+              
+                
+                  
+
+
+
+
+
+
+<a href="https://github.com/StaySafeGeneva/StaySafeGeneva.github.io/">The correspong github file</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="http://www.markdowntutorial.com/">Learn markdown</a>
+
+                
+              
+                
+                  
+
+
+
+
+
+
+<a href="https://pages.github.com/">GitHub Pages</a>
+
+                
+              
+            </div>
+          </li>
+        
+        
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000 ">
+	      <img class="avatar-img" src="/img/SwissRedCross.png" />
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-heading">
+          <h1>Stay Safe Geneva!</h1>
+		  
+		    
+            <hr class="small">
+            <span class="page-subheading">An analysis of the accidents in Geneva</span>
+			
+		  
+		  
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <h1 id="front-page">Front page</h1>
+
+<p>It still has to be written!</p>
+
+<h3 id="ideas">Ideas</h3>
+<ul>
+  <li>What about as logo a half swiss cross and half health cross?</li>
+  <li>Maps? We should decide soon!</li>
+</ul>
+
+<h3 id="to-the-team">To the team:</h3>
+<ul>
+  <li>In the <strong>pages</strong> folder you will find a markdown file with your name. Feel free to experiment in it and if you feel so begin to write your part. Note that you can also write it in jupyter notebook and then copy and paste it whenever you feel like it!.<br />
+<strong>NOTE:</strong> If you write it in jupyter notebook, it will be about the same, but try out sometimes that the sintax is the same than here: e.g. if you want to include latex (like it is easily done in jupyter notebook) we should include a piece of code for it, so keep me updated! :)</li>
+  <li>Feel free to modify the <em>about.md</em> in <strong>pages</strong> folder as well, it is written by the team, for the team ;)</li>
+  <li>If you wish you can also modify this file (i.e. <em>index.md</em> in the global directory) but please be careful!</li>
+  <li>For the other files, if you are not sure of what you are doing, do not hesitate to contact me :) you can also experiment on your local copy of the website!</li>
+</ul>
+
+<h3 id="special-thanks">Special thanks:</h3>
+
+<ul>
+  <li>Leaflet <a href="http://leafletjs.com/examples.html">examples</a></li>
+  <li><a href="https://briancaffey.github.io/2017/01/23/bokeh-plots-on-jekyll.html">Bokeh plots and jekyll</a></li>
+  <li>Bokeh doc used intensivly, espescially about <a href="http://bokeh.pydata.org/en/latest/docs/user_guide/embed.html#components">components</a></li>
+  <li>The <a href="https://bokeh.pydata.org/en/latest/docs/gallery/texas.html">Texas interactive plot</a> from bokeh</li>
+  <li>Some <a href="https://www.w3schools.com/html/html_css.asp">Basis</a> for understanding HTML, CSS and JS</li>
+  <li>For <a href="https://scrimba.com/p/pEKMsN/cast-1953">bar plots</a> (even if not used yet)</li>
+  <li><a href="https://www.youtube.com/watch?v=SWVjQsvQocA">Video</a> about Jekyll</li>
+</ul>
+
+<p>i.e. if we wanna be able to make posts on our website we should put back index.html :) )</p>
+
+<div class="posts-list">
+  
+</div>
+
+
+	    
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+          <li>
+            <a href="https://github.com/LucaZampieri" title="GitHub">
+              <span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="sr-only">GitHub</span>
+            </a>
+          </li>
+          
+		  
+	  
+      
+		  
+		  
+		  
+		  
+      
+      
+      
+      
+      
+		  
+      
+      
+      
+        </ul>
+        <p class="copyright text-muted">
+		  LucaZampieri & Gilcompa & MartMilani
+		  &nbsp;&bull;&nbsp;
+		  2017
+
+		  
+		  &nbsp;&bull;&nbsp;
+		  <a href="http://localhost:4000">www.epfl.ch</a>
+		  
+	    </p>
+	        <!-- Please don't remove this, keep my open source work credited :) -->
+		<p class="theme-by text-muted">
+		  Theme by
+		  <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+		</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+
+
+
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/bootstrap.min.js"></script>
+    
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+	<script src="/js/main.js"></script>
+    
+  
+
+
+
+
+  
+  </body>
+</html>
