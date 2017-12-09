@@ -64,17 +64,9 @@ common-js:
       {% endfor %}
     {% endif %}
 
-    <!-- Added by luca -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
-   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
-   crossorigin=""/>
-   <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
-      integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
-      crossorigin=""></script>
-      <script src="data/statesData.js"></script>
 
-    <!-- Third try -->
+
+    <!-- For the Bokeh graphs -->
     <link
         href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.9.min.css"
         rel="stylesheet" type="text/css">
@@ -84,12 +76,10 @@ common-js:
     <link
         href="http://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.9.min.css"
         rel="stylesheet" type="text/css">
-
     <script src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.9.min.js"></script>
     <script src="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.9.min.js"></script>
     <script src="http://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.9.min.js"></script>
     {% include multiple_script_1.html %}
-
 
     <style>
        /*  #mapid { height: 180px; } */

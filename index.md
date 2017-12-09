@@ -26,6 +26,8 @@ It still has to be written!
 - Bokeh doc used intensivly, espescially about [components](http://bokeh.pydata.org/en/latest/docs/user_guide/embed.html#components)  
 - The [Texas interactive plot](https://bokeh.pydata.org/en/latest/docs/gallery/texas.html) from bokeh
 - Some [Basis](https://www.w3schools.com/html/html_css.asp) for understanding HTML, CSS and JS
+- For [bar plots](https://scrimba.com/p/pEKMsN/cast-1953) (even if not used yet)
+- [Video](https://www.youtube.com/watch?v=SWVjQsvQocA) about Jekyll
 
 
 [//]:#(---------- END OF WHAT IS VISIBLE ----------------)
