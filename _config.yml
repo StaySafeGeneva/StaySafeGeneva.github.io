@@ -28,6 +28,7 @@ navbar-links:
     - Test leaflet: "test"
     - Test Bokeh: "plotting"
     - lala: "lala"
+    - Test HTML: "retest"
   ADA Project:
     - Milani:   "pages/Milani"
     - Gilcompa: "pages/Gilcompa"
