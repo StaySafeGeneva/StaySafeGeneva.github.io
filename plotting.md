@@ -9,6 +9,8 @@ permalink: /plotting/
 It is basically just one line to include bokeh plots :)  
 For example:
 
+{% include multiple_script_1.html %}
+
 * Red:  
 
 <div class="bk-root">
