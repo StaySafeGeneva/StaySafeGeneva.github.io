@@ -4,7 +4,7 @@ title: Luca's part
 subtitle: a first test
 ---
 
-[!lala](../img/avatar-icon.png)
+![lala](../img/avatar-icon.png)
 
 
 
