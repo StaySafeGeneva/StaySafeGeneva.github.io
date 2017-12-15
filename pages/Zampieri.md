@@ -4,6 +4,10 @@ title: Luca's part
 subtitle: a first test
 ---
 
+[!lala](../img/avatar-icon.png)
+
+
+
 Here are some trials, I hope you will enjoy them!
 <hr>
 preparation: 
