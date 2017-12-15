@@ -4,20 +4,6 @@ title: Luca's part
 subtitle: a first test
 ---
 
-#  Homework_00
-
-
-dsf 
-df
-dfg
-dfg
-
-
-
-
-
-
-
 
 
 ![lala](../img/avatar-icon.png)
