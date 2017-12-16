@@ -47,6 +47,7 @@ This last and smaller part is just to give you a taste of what can be then done.
 - If you wish you can also modify this file (i.e. _index.md_ in the global directory) but please be careful!
 - For the other files, if you are not sure of what you are doing, do not hesitate to contact me :) you can also experiment on your local copy of the website!  
 
+
 ### Special thanks:
 
 - Leaflet [examples](http://leafletjs.com/examples.html)
