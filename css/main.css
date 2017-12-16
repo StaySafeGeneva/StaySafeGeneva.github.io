@@ -19,6 +19,11 @@ layout: null
     float: right;
 }
 
+.align-center {
+    margin: auto;
+    width: 50%;
+}
+
 
 
 /* --- General --- */
