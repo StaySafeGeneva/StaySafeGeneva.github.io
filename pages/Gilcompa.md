@@ -11,6 +11,11 @@ The **months of the year with more accidents** are: March, June, September and O
 
 But when is the day of the week with more number of accidents in average? From Monday to Thursday we observe that there is the same amount of accidents in average.
 > ## **Be careful** on Friday!
+![Image](../img/acc_weekday.png)
+
+
+Is there the same risk during the morning than during the evening when we are tired? 
+> ## When you come back home at 17h, it is when you have to be more aware!
 ![Image](../img/acc_hour.png)
 
 
