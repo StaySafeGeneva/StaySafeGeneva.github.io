@@ -14,7 +14,7 @@ But when is the day of the week with more number of accidents in average? From M
 ![Image](../img/acc_weekday.png)
 
 
-Is there the same risk during the morning than during the evening when we are tired? 
+Is there the same risk during the morning than during the evening when we are tired? It is know that higher amount of traffic on the roads are during the morning or the afternoon, when people go or come back home. We observe that it also correlated with the number of accidents.
 > ## When you come back home at 17h, it is when you have to be more aware!
 ![Image](../img/acc_hour.png)
 
