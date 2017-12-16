@@ -1,4 +1,4 @@
-# General overview
+
 Road safety has always a
 
 ## When?
@@ -40,7 +40,7 @@ An accident can be classified as Mortal, Severe, Mild and Unknown. Let's check h
 * The **traffic jam's collision accidents** and again, the **drifting accidents** are the ones with more severe consequenses.
 * Tha amount of **accidents involving pedestrian** with severe consequences is considerable.
 
-> ### From the point of view of the consequences, the accidents involving pedestrians is also relevant
+> ### From the conequences point of view, accidents involving pedestrians is also relevant
 
 
 ## Who
