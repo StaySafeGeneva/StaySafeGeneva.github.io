@@ -23,4 +23,4 @@ See our respective pages:
 
 ### The context of this analysis
 
-This project has been realised for the course 
+Realised in the context of the course of EPFL **Applied Data Analysis** (CS-401)
