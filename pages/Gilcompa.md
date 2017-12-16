@@ -1,5 +1,5 @@
 
-Road safety has always a been a first in the list matter for administration. An exploratory analysis has been done in order to understnad better the accidents in Geneva. A general approach to get an overview is two ask ourselves the following questions:
+Road safety has always a been a first in the list matter for administration. An exploratory analysis has been done in order to understand better the accidents in Geneva. To get a general overview we have asked ourselves the following questions:
 * **When** are the accidents happen?
 
 * **Where** are located?
@@ -45,16 +45,19 @@ The number of accidents during the day is larger than during the night. However,
 
 An accident can be classified as **Mortal, Severe, Mild and Unknown**. Let's check how the split is done comparing the accident group and the consequences:
 ![Image](../img/acc_gr_con.png)
-* The **drifting accidents** and **accidents involving pedestrian** are **the most mortal**.
-* The **traffic jam's collision accidents** and again, the **drifting accidents** are the ones with more severe consequenses.
+* **Drifting accidents** and **accidents involving pedestrian** are **the most mortal**.
+* **Traffic jam's collision accidents** and again, the **drifting accidents** are the ones with more severe consequenses.
 * Tha amount of **accidents involving pedestrian** with severe consequences is considerable.
 
-> ### From the conequences point of view, accidents involving pedestrians is also relevant
+> ### From the conequences point of view, accidents involving pedestrians are also relevant
 
-For Parking accidents, is difficult to define a cause of the accidents. This is why we will analyse it separately.
-
-Let's analyse the three more important accidents to understand the main causes of them.
+For Parking accidents, is difficult to define a cause of the accidents. This is why we will analyse it separately. Let's analyse then the three more important accidents to understand the main causes of them.
 ![Image](../img/acc_gr_causeg.png)
+* **Drifting accidents** are mainly caused by the driver state or distraction. In addition, the speed is the third cause for this kind of accidents.
+* One of the main causes of the accidents involving pedestrian is the pedestrian attitude itself. 
+* For all the three accidents type, the driver or inattention of the driver is an important cause.
+
+> The momentary innatention represents the 29% and the alcohol influence represents the 17% of the total number of accidents of three main accident groups
 
 
 ## What?
