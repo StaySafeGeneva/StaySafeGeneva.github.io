@@ -25,7 +25,7 @@ add heatmap
 
 
 ## Why?
-Which are the group of accidents with more ocurrence? From the pareto rule, 
+Which are the group of accidents with more ocurrence? To focus our research, we will mainly focus on the three type of accidents with more ocurrence.
 > ## Three main accident group: Drift, Collision and Parking accidents!
 ![Image](../img/acc_group.png)
 
