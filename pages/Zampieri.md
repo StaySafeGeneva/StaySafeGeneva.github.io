@@ -26,7 +26,7 @@ lalala
 <hr>
 width="460" height="300"
 <p align="center">
-  <img  src="../img/avatar-icon.png">
+  <img  src="../img/Geneva panorama.png">
 </p>
 <hr>
 
