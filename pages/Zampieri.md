@@ -10,7 +10,7 @@ subtitle: a first test
 
 
 <hr>
-<img src="../img/avatar-icon.png" alt="Drawing" style="width: 200px;"/>
+<img src="../img/avatar-icon.png" alt="Drawing" width="200" height="200"/>
 
 
 
