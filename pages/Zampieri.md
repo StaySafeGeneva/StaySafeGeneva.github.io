@@ -24,7 +24,7 @@ lalala
 <hr>
 width="460" height="300"
 <p align="center">
-  <img  src="{{ site.baseurl }}/img/avatar-icon.png">
+  <img  src="../img/avatar-icon.png">
 </p>
 <hr>
 
