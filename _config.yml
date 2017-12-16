@@ -23,16 +23,15 @@ description: Website for the Project of Applied Data Analysis of EPFL, year 2017
 
 # List of links in the navigation bar
 navbar-links:
-  About: "pages/about"
   Tests:
     - Test leaflet: "test"
     - Test Bokeh: "plotting"
     - lala: "lala"
     - Test HTML: "retest"
-  ADA Project:
-    - Milani:   "pages/Milani"
-    - Gilcompa: "pages/Gilcompa"
-    - Zampieri: "pages/Zampieri"
+  Milani:   "pages/Milani"
+  Gilcompa: "pages/Gilcompa"
+  Zampieri: "pages/Zampieri"
+  About: "pages/about"
   References:
     - The correspong github file: "https://github.com/StaySafeGeneva/StaySafeGeneva.github.io/"
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"

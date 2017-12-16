@@ -88,7 +88,13 @@
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
-  
+
+  <script type="text/javascript" src=" {{ "/js/jquery-3.1.1.min.js" | relative_url }}"></script>
+  <script type="text/javascript" src=" {{ "/js/jquery.autocomplete.min.js" | relative_url }}"></script>
+  <script type="text/javascript" src=" {{ "/js/d3.min.js" | relative_url }}"></script>
+  <script type="text/javascript" src=" {{ "/js/c3.min.js" | relative_url }}"></script>
+  <script type="text/javascript" src=" {{ "/js/utils.js" | relative_url }}"></script>
+
 
   <!-- Twitter summary cards -->
   <meta name="twitter:card" content="summary" />

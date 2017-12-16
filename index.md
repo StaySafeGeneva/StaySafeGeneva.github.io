@@ -9,21 +9,21 @@ use-site-title: true
 
 We feel the roads security is an important apsect of our lifes and thus wanted to do something in order to improve it! As a result we decided to make this project, hoping that we will sensibilize the citizen of Geneva and ,_why not_, also the authorities, so that in a near future our roads will be safer!  
 
-![](../img/Geneva panorama.jpg)
+![](../img/Geneva panorama.jpg){: .align-center}
 
 ## Structure:
 
 To present the results we divided the website into 3 smaller parts:
 1. [A visualisation of accidents and understanding of the dynamics in question](https://www.google.ch)
 2. [Full analysis about the causes and onsequences](https://www.google.ch)
-3. [The risk calculator](https://www.google.ch) 
+3. [The risk calculator](https://www.google.ch)
 
 If you wanna know more about this project, do not hesitate to visit the [about](https://www.google.ch) page. You will learn about the context in which this project has been realised and about the Team.  
 Then you can browse the [References](https://www.google.ch), which are the website from which we got inspiration and support, maybe they can be usefull for you as well!
 
 ## Content
 
-#### 1.The aim of the first part is to have a geographical understanding of the data. 
+#### 1.The aim of the first part is to have a geographical understanding of the data.
 * For the citizen it may give the places to avoid or in which he should pay additional attention
 * For the authorities it may give an idea of the places where they should make an intervention to prevent further disasters
 
@@ -62,5 +62,3 @@ This last and smaller part is just to give you a taste of what can be then done.
 
 
 [//]:#(---------- END OF WHAT IS VISIBLE ----------------)
-
-
