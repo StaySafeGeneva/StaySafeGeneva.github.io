@@ -2,8 +2,8 @@
 Road safety has always a
 
 ## When?
-All the news evoque to an increase of accidents during last years. So we ask ourselves if they have really increased as the news says so? The evolution of number of accidents from 2010 to 2016 in Geneva shows that from 2012 to 2014 there has been a strong increase, however it has been stabilized during the last two years. The year with higher number of accidents has been in 2015 with 66 accidents per week!
-> ## The year with higher number of accidents has been in 2015 with **66 accidents per week**!
+All the news evoque to an increase of accidents during last years. So we ask ourselves if they have really increased as the news says so? The evolution of number of accidents from 2010 to 2016 in Geneva shows that from 2012 to 2014 there has been a strong increase, however it has been stabilized during the last two years. 
+> ## In 2015 there has been **66 accidents per week**!
 ![Image](../img/acc_year.png)
 
 
