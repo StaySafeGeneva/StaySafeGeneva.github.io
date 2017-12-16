@@ -14,7 +14,8 @@ LL {: .callout}
 <img src="../img/avatar-icon.png" alt="Drawing" width="200" height="200"/>
 
 lalala
-
+<hr>
+| I am text to the left  | ![lala](../img/avatar-icon.png) |
 <hr>
 <p align="center">
 [lala](../img/avatar-icon.png)
