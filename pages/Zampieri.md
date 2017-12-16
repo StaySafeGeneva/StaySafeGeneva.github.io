@@ -8,7 +8,7 @@ subtitle: a first test
 
 ![lala](../img/avatar-icon.png)
 
-{: .callout}
+
 
 
 LL 
@@ -26,7 +26,7 @@ lalala
 <hr>
 width="460" height="300"
 <p align="center">
-  <img  src="../img/Geneva panorama.png">
+  <img  src="../img/Geneva panorama.jpg">
 </p>
 <hr>
 
