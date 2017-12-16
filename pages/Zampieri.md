@@ -10,9 +10,9 @@ This is more a proof of concept than a real tool (see **[Limitations](https://ww
 
 #### From Vermont to Quai du Mont-Blanc
 If we want to go from Vermont to Quai du Mont-Blanc in Geneva, Google maps would give us three choices:  
-(here results for the 16/12/2017)
+_here results for the 16/12/2017, 17h30:_
 
-![center-aligned-image](../img/geneva_vermont_quai_mont_blanc.png){: .align-center}
+![center-aligned-image](../img/geneva_vermont_quai_mont_blanc.png){: .align-center50}
 
 Where we have denoted the possibles routes from the fastest (1) to the slowest (2). But what about our safety? We just enter the coordinates of the origin and destination as Google has translated them i.e. ```python origin=Vermont,+1202+Geneva``` and ```python destination=Quai+du+Mont-Blanc,+1201+Genève``` and put them into the calculator to get:  
 
