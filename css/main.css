@@ -19,16 +19,22 @@ layout: null
     float: right;
 }
 
-.align-center50 {
-    display: block;
-    margin: auto;
-    width: 50%;
-}
-
 .align-center {
     display: block;
     margin: auto;
     width: 100%;
+}
+
+.align-center70 {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+.align-center50 {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 
