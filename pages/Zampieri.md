@@ -7,6 +7,7 @@ subtitle: a first test
 
 
 ![lala](../img/avatar-icon.png=100x100)
+<img src="../img/avatar-icon.png" alt="Drawing" style="width: 200px;"/>
 
 
 
