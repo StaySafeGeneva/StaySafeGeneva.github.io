@@ -26,10 +26,15 @@ add heatmap
 
 ## Why?
 Which are the group of accidents with more ocurrence? To focus our research, we will mainly focus on the three type of accidents with more ocurrence.
-> ## Three main accident group: Drift, Collision and Parking accidents!
+> ## Three main accident group: Drift, Traffic jam collision and Parking accidents!
 ![Image](../img/acc_group.png)
 
-## How?
+The number of accidents during the day is larger than during the night. However, the number of drifting accidents is nearly the same during the day than in night.
+> ## Please, don't lose the attention and moderate the speed during the night!
 
+How does the weather affect in type of accident 
+## How?
+> ## Three main accident group: Drift, Traffic jam collision and Parking accidents!
+![Image](../img/acc_gr_cons.png)
 
 ## Who
