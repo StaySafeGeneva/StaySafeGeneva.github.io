@@ -15,6 +15,7 @@ If we want to go from Vermont to Quai du Mont-Blanc in Geneva, Google maps would
 ![center-aligned-image](../img/geneva_vermont_quai_mont_blanc.png){: .align-center}
 
 Where we have denoted the possibles routes from the fastest (1) to the slowest (2). But what about our safety? We just enter the coordinates of the origin and destination as Google has translated them i.e. ```python origin=Vermont,+1202+Geneva``` and ```python destination=Quai+du+Mont-Blanc,+1201+Genève``` and put them into the calculator to get:  
+
 |            | Route 1     |   Route 2  | Route 3   |
 |:--:        | :---------: |:-----:     | :-----:   |
 | Total Risk | 5.948168    |   4.173144 |  3.719490 |
@@ -28,7 +29,7 @@ Imperfections of the model:
 | Total Risk | 5.948168    |   4.173144 |  3.719490 |
 | Mean Risk  | 1.982723 	  |2.086572 	  | 1.859745  |
 | Roads      | 8           |11          |12         |
-| Found Roads| 3           | 3          |2          |
+| Found Roads| 3           | 3          |2          |{: .align-center}
 
 Since we found such a small percentage of risks 
 
