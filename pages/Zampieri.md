@@ -1,14 +1,44 @@
 ---
 layout: page
-title: Luca's part
-subtitle: a first test
+title: Risk calculator
+subtitle: An overview
 ---
 
+Never wanted to choose a route for it **safety** and not only for its rapidity? Or maybe you have children and you want them to take the **safest** route late at night? Those are the key concepts behind the risk calculator! We want **YOU** to **StaySafe!**.
 
+This is more a proof of concept than a real tool (see **[Limitations](https://www.google.ch/)** below). But here is an example, and you are welcome to play with the [Jupyter Notebook](https://www.google.ch/)
+
+#### From Vermont to Quai du Mont-Blanc
+If we want to go from Vermont to Quai du Mont-Blanc in Geneva, Google maps would give us three choices:  
+(here results for the 16/12/2017)
+
+![center-aligned-image](../img/geneva_vermont_quai_mont_blanc.png){: .align-center}
+
+Where we have denoted the possibles routes from the fastest (1) to the slowest (2). But what about our safety? We just enter the coordinates of the origin and destination as Google has translated them i.e. ```python origin=Vermont,+1202+Geneva``` and ```python destination=Quai+du+Mont-Blanc,+1201+Genève``` and put them into the calculator to get:  
+|            | Route 1     |   Route 2  | Route 3   |
+|:--:        | :---------: |:-----:     | :-----:   |
+| Total Risk | 5.948168    |   4.173144 |  3.719490 |
+
+For this example, it turns out that the slowest road is the safest!
+
+Imperfections of the model:
+
+|            | Route 1     |   Route 2  | Route 3   |
+|:--:        | :---------: |:-----:     | :-----:   |
+| Total Risk | 5.948168    |   4.173144 |  3.719490 |
+| Mean Risk  | 1.982723 	  |2.086572 	  | 1.859745  |
+| Roads      | 8           |11          |12         |
+| Found Roads| 3           | 3          |2          |
+
+Since we found such a small percentage of risks 
+
+
+
+<hr>
 
 ![lala](../img/avatar-icon.png)
 
-![center-aligned-image](../img/avatar-icon.png){: .align-center}
+
 ll
 
 LL 
