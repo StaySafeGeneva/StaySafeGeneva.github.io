@@ -21,6 +21,12 @@ lalala
 [lala](../img/avatar-icon.png)
 </p>
 
+<hr>
+<p align="center">
+  <img width="460" height="300" src="../img/avatar-icon.png">
+</p>
+<hr>
+
 Here are some trials, I hope you will enjoy them!
 <hr>
 preparation: 
