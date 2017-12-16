@@ -11,6 +11,7 @@ It still has to be written!
 ### Ideas
 - What about as logo a half swiss cross and half health cross?
 - Maps? We should decide soon!
+$\frac{1}{2}$
 
 ### To the team:
 - In the **pages** folder you will find a markdown file with your name. Feel free to experiment in it and if you feel so begin to write your part. Note that you can also write it in jupyter notebook and then copy and paste it whenever you feel like it!.  
