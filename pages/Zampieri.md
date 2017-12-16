@@ -9,7 +9,7 @@ subtitle: a first test
 ![lala](../img/avatar-icon.png)
 
 ![center-aligned-image](../img/avatar-icon.png){: .align-center}
-l
+ll
 
 LL 
 <hr>
