@@ -35,6 +35,6 @@ The number of accidents during the day is larger than during the night. However,
 How does the weather affect in type of accident 
 ## How?
 > ## Three main accident group: Drift, Traffic jam collision and Parking accidents!
-![Image](../img/acc_gr_cons.png)
+![Image](../img/acc_gr_con.png)
 
 ## Who
