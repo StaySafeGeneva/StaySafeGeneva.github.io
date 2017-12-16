@@ -25,8 +25,8 @@ add heatmap
 
 
 ## Why?
-Which are the group of accidents with more ocurrence?
-> ## **Be careful** on Friday!
+Which are the group of accidents with more ocurrence? From the pareto rule, 
+> ## Three main accident group: Drift, Collision and Parking accidents!
 ![Image](../img/acc_group.png)
 
 ## How?
