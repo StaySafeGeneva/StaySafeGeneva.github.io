@@ -9,12 +9,15 @@ All the news evoque to an increase of accidents during last years. So we ask our
 
 The **months of the year with more accidents** are: March, June, September and October. This coincide with holidays start or holidays return. It also can be observed that in average, there are more accidents at the end of the year.
 
-But when is the day of the week with more number of accidents in average? From Monday to Thursday we observe that there is the same amount of accidents in average. However, when the population go out from work and they start their weekend on Friday, a peak of accidents can be observed. 
+But when is the day of the week with more number of accidents in average? From Monday to Thursday we observe that there is the same amount of accidents in average.
 > ## Be careful on Friday when you go out from work and you start the weekend!
-![Image](../img/acc_weekday.png)
- 
+![Image](../img/acc_hour.png)
+
 
 ## Where?
+Where are the hot spots in geneva? 
+add heatmap
+![Image]()
 
 
 ## Why?
