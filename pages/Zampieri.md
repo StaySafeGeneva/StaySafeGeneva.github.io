@@ -6,7 +6,9 @@ subtitle: a first test
 
 
 
-![lala](../img/avatar-icon.png){: .callout}
+![lala](../img/avatar-icon.png)
+
+{: .callout}
 
 
 LL 
