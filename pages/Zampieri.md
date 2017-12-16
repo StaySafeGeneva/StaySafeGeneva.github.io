@@ -12,6 +12,8 @@ subtitle: a first test
 <hr>
 <img src="../img/avatar-icon.png" alt="Drawing" width="200" height="200"/>
 
+lalala
+
 <hr>
 <p align="center">
 [lala](../img/avatar-icon.png)
