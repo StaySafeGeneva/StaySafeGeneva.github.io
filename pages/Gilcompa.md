@@ -25,7 +25,8 @@ add heatmap
 
 
 ## Why?
-Which are the group of accidents with more ocurrence? 
+Which are the group of accidents with more ocurrence?
+> ## **Be careful** on Friday!
 ![Image](../img/acc_group.png)
 
 ## How?
