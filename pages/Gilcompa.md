@@ -57,7 +57,11 @@ For Parking accidents, is difficult to define a cause of the accidents. This is 
 * One of the main causes of the accidents involving pedestrian is the pedestrian attitude itself. 
 * For all the three accidents type, the driver or inattention of the driver is an important cause.
 
-> The momentary innatention represents the 29% and the alcohol influence represents the 17% of the total number of accidents of three main accident groups
+> The momentary innatention represents the 29% (40 accidents per month) of the total number of accidents of three main accident groups and the alcohol influence represents the 17% (23 accidents per month).
+
+Has the number of accidents due to the alchool influence increased during the years?
+![Image](../img/acc_alchool_year_cons.png)
+
 
 
 ## What?
