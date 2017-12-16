@@ -20,6 +20,7 @@ layout: null
 }
 
 .align-center {
+    display: block;
     margin: auto;
     width: 50%;
 }
