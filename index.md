@@ -6,6 +6,8 @@ use-site-title: true
 ---
 # Front page
 
+![](../img/Geneva panorama.jpg)
+
 It still has to be written!
 
 ### Ideas
