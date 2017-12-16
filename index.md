@@ -4,16 +4,41 @@ title: Stay Safe Geneva!
 subtitle: An analysis of the accidents in Geneva
 use-site-title: true
 ---
-# Front page
+
+
+
+We feel the roads security is an important apsect of our lifes and thus wanted to do something in order to improve it! As a result we decided to make this project, hoping that we will sensibilize the citizen of Geneva and ,_why not_, also the authorities, so that in a near future our roads will be safer!  
 
 ![](../img/Geneva panorama.jpg)
 
-It still has to be written!
+## Structure:
 
-### Ideas
-- What about as logo a half swiss cross and half health cross?
-- Maps? We should decide soon!
-$\frac{1}{2}$
+To present the results we divided the website into 3 smaller parts:
+1. [A visualisation of accidents and understanding of the dynamics in question](https://www.google.ch)
+2. [Full analysis about the causes and onsequences](https://www.google.ch)
+3. [The risk calculator](https://www.google.ch) 
+
+If you wanna know more about this project, do not hesitate to visit the [about](https://www.google.ch) page. You will learn about the context in which this project has been realised and about the Team.  
+Then you can browse the [References](https://www.google.ch), which are the website from which we got inspiration and support, maybe they can be usefull for you as well!
+
+## Content
+
+#### 1.The aim of the first part is to have a geographical understanding of the data. 
+* For the citizen it may give the places to avoid or in which he should pay additional attention
+* For the authorities it may give an idea of the places where they should make an intervention to prevent further disasters
+
+
+#### 2. How to interpret the accidents?
+Beginning with a general overview we will try to get in depth and find the most important factors of accidents. Even though it is specific to Geneva the results found here should be applicable in all kind of similar city. Again, we think that it is only by understanding the dynamics of the accidents that we can take measures to avoid them.
+This part is composed by several subparts:
+* Exposition of trends of accidents
+* Causes
+* Consequences
+
+#### 3. The risk calculator
+
+This last and smaller part is just to give you a taste of what can be then done. The working principle is that we compute a risk for each road with a given metric. We can then choose the safest route to travel from point **A** to point **B**. E.g. this could be used as an add-on to itinerary calculator applications for Google maps of the SBB/CFF application.
+
 
 ### To the team:
 - In the **pages** folder you will find a markdown file with your name. Feel free to experiment in it and if you feel so begin to write your part. Note that you can also write it in jupyter notebook and then copy and paste it whenever you feel like it!.  
@@ -33,73 +58,8 @@ $\frac{1}{2}$
 - [Video](https://www.youtube.com/watch?v=SWVjQsvQocA) about Jekyll
 
 
+
+
 [//]:#(---------- END OF WHAT IS VISIBLE ----------------)
 
-[//]:#(The rest here is useless for the moment, it is the code for the posts :p
-  i.e. if we wanna be able to make posts on our website we should put back index.html :) )
 
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
-
-    <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-
-    <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <img src="{{ post.image }}">
-        </a>
-      </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
-    </div>
-
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
-
-   </article>
-  {% endfor %}
-</div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
