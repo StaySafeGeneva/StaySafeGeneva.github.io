@@ -10,8 +10,9 @@ Road safety has always a been a first in the list matter for administration. An 
 
 * **Who** are the people and vehicles involved?
 
+
 ## When?
-<p style="text-align: justify;">All the news evoque to an increase of accidents during last years. So we ask ourselves if they have really increased as the news says so? The evolution of number of accidents from 2010 to 2016 in Geneva shows that from 2012 to 2014 there has been a strong increase, however it has been stabilized during the last two years.</p> 
+<p style="text-align: justify;">All the news evoque to an increase of accidents during last years. The evolution of number of accidents from 2010 to 2016 in Geneva shows that from 2012 to 2014 there has been a strong increase, however it has been stabilized during the last two years.</p> 
 
 > ### In 2015, there were 66 accidents per week
 ![Image](../img/acc_year.png)
@@ -33,23 +34,38 @@ add heatmap
 ![Image]()
 
 
-## Why? How?
+
+## How and Why? 
 Which are the group of accidents with more ocurrence? To focus our research, we will mainly focus on the three type of accidents with more ocurrence.
-> ### Three main accident group: Drift, Traffic jam collision and Parking accidents
+> ### Drift, Traffic jam collision and Parking accidents are the accident group with more ocurrence.
 ![Image](../img/acc_gr.png)
 
 The number of accidents during the day is larger than during the night. However, the number of drifting accidents is nearly the same during the day than during the night.
 > ### Please, _don't lose the attention_ and _moderate the speed_ during the night!
 
-How does the weather affect in type of accident 
-## What?
-An accident can be classified as Mortal, Severe, Mild and Unknown. Let's check how the split is done comparing the accident group and the consequences:
+An accident can be classified as **Mortal, Severe, Mild and Unknown**. Let's check how the split is done comparing the accident group and the consequences:
 ![Image](../img/acc_gr_con.png)
 * The **drifting accidents** and **accidents involving pedestrian** are **the most mortal**.
 * The **traffic jam's collision accidents** and again, the **drifting accidents** are the ones with more severe consequenses.
 * Tha amount of **accidents involving pedestrian** with severe consequences is considerable.
 
 > ### From the conequences point of view, accidents involving pedestrians is also relevant
+
+For Parking accidents, is difficult to define a cause of the accidents. This is why we will analyse it separately.
+
+Let's analyse the three more important accidents to understand the main causes of them.
+![Image](../img/acc_gr_causeg.png)
+
+
+## What?
+
+
+
+
+How does the weather affect in type of accident 
+
+
+
 
 
 ## Who
