@@ -6,9 +6,10 @@ subtitle: a first test
 
 
 
-![lala](../img/avatar-icon.png){: .callout}
+![lala](../img/avatar-icon.png){ float: right; }
 
 
+LL {: .callout}
 <hr>
 <img src="../img/avatar-icon.png" alt="Drawing" width="200" height="200"/>
 
