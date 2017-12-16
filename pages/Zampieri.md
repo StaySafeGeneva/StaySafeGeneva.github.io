@@ -6,7 +6,7 @@ subtitle: a first test
 
 
 
-![lala](../img/avatar-icon.png)
+![lala](../img/avatar-icon.png=100x100)
 
 
 
