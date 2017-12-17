@@ -98,12 +98,11 @@ function Display(road) {
 /* Callback function for race selection through search bar */
 $(function(){
   $('#autocomplete').autocomplete({
-    lookup: road_names,
+    lookup: races,
     onSelect: function (suggestion) {
       $('#outputbox').empty()
-      // ---- TITLE ----
-      var title = "<h2>"+ "When?"+"</h2>"
-      $('#outputbox').append(title);
+      var title = "<h2>"+ "cacaaaaa" +"</h2>"
+      $('#outputbox').append(title)
     }
   });
 });
@@ -118,7 +117,7 @@ if (raceQuery) {
     var title = "<h2>"+ "Road: "+ races[index].data + "  Risk: "+ races[index].value +"</h2>"
     $('#outputbox').append(title);
   } else {
-    var title = "<h2>"+ res +"</h2>"
+    var title = "<h2>"+ "We don't have a risk for this road" +"</h2>"
     $('#outputbox').append(title);
   }
 
