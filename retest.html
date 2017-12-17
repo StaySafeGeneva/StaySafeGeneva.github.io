@@ -34,6 +34,13 @@ var races = [
   {value:"{{race[1]}}",data:"{{race[0]}}"},
   {% endfor %}
 ];
+
+var road_names = [
+  {% for race in site.data.road_risk.Risk_NB_VOITURES_TOURISME[0] %}
+  {"{{race[0]}}"},
+  {% endfor %}
+];
+
 // Initializations
 var currentRace = null;
 var myMap = null;
@@ -46,19 +53,24 @@ function displayRandom() {
   // Get random index
   var entry = Math.floor(Math.random() * races.length);
   // Load JSON file and display
-  loadAndDisplay(races[entry].data, races[entry].value)
+  // Empty HTML
+  $('#outputbox').empty()
+
+  // ---- TITLE ----
+  index = races.findIndex(x => x.data=="avenue de france");
+  var title = "<h2>"+ "Road: " + races[entry].data + "  Risk: "+ races[entry].value +"</h2>"
+  $('#outputbox').append(title)
+
+  //loadAndDisplay(races[entry].data)
 }
 
-function loadAndDisplay(road,risk) {
+function loadAndDisplay(road) {
   $("<div id='outputbox'><p id='outputcontent'>Loading... Please wait.</p><img src='../img/CHflag.gif' ></div>").replaceAll("#outputbox")
   // Load JSON data
 
   $.getJSON("/_data/" + "road_risk" + ".json", function(data) {
     // Set 'global' var to selected race
     currentRace = data
-
-	$('<div id="outputbox"><p id="outputcontent">Choose a runner and the results will be displayed here.</p></div>').replaceAll('#outputbox')
-
     // Empty HTML
     $('#outputbox').empty()
 
@@ -69,18 +81,46 @@ function loadAndDisplay(road,risk) {
   })
 }
 
+
+function Display(road) {
+    // Empty HTML
+    $('#outputbox').empty()
+
+    // ---- TITLE ----
+    var title = "<h2>"+ "cacaaaaa" +"</h2>"
+    $('#outputbox').append(title)
+
+}
+
+
+
+
 /* Callback function for race selection through search bar */
 $(function(){
   $('#autocomplete').autocomplete({
-    lookup: races.data,
+    lookup: road_names,
     onSelect: function (suggestion) {
-      loadAndDisplay(suggestion.data)
+      $('#outputbox').empty()
+      // ---- TITLE ----
+      var title = "<h2>"+ "When?"+"</h2>"
+      $('#outputbox').append(title);
     }
   });
 });
 
 // Page load end : check if a query has been made
 if (raceQuery) {
-  loadAndDisplay(raceQuery);
+  var res = raceQuery.replace(/\+/g, " ");
+  $('#outputbox').empty()
+  index = races.findIndex(x => x.data==res);
+
+  if (index >= 0) {
+    var title = "<h2>"+ "Road: "+ races[index].data + "  Risk: "+ races[index].value +"</h2>"
+    $('#outputbox').append(title);
+  } else {
+    var title = "<h2>"+ res +"</h2>"
+    $('#outputbox').append(title);
+  }
+
 }
 </script>
