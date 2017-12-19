@@ -1,3 +1,10 @@
+---
+layout: bar_chart
+title: Xavier
+subtitle: Gilcompa
+---
+{% include xav_script.html %}
+
 
 Road safety has always a been a first in the list matter for administration. An exploratory analysis has been done in order to understand better the accidents in Geneva. To get a general overview, we have asked ourselves the following questions:
 * **When** are the accidents happen?
@@ -16,7 +23,6 @@ Road safety has always a been a first in the list matter for administration. An 
 Road safety has always a been a first in the list matter for administration. An exploratory analysis has been done in order to understand better and get a general overview on the Geneva accidents.
 
 ## When does the accidents happen?
->>>>>>> 7f911e8c8cef8d78f319430c91a3caa9aa24aff5
 ll the news evoque to an increase of accidents during last years. The evolution of number of accidents from 2010 to 2016 in Geneva shows that from 2012 to 2014 there has been a **strong increase**, however it has been stabilized during the last two years.
 
 > ### In 2015, there were 66 accidents per week
@@ -63,3 +69,5 @@ What are the main causes of the three more important accidents?
 > The momentary innatention represents the 29% (40 accidents per month) of the total number of accidents of three main accident groups and the alcohol influence represents the 17% (23 accidents per month).
 
 Has the number of accidents due to the alchool influence increased during the years?
+
+{% include xav_div.html %}
