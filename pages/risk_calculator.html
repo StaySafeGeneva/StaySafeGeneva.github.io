@@ -10,10 +10,13 @@ subtitle: Measure the road safety in Geneva
   also be used worldwide with a bit more of an effort.
 </p>
 
+<hr>
+
 <p>
-  Few notes:
+  Few preliminary notes:
   <ul>
-    <li>Not all the roads of Geneva are in our dataset, but begin
+    <li>Not all the roads of Geneva are in our dataset, just the ones where
+      there were accidents and traffic data, but begin
     entering a road name and let the autocompletion guide you!</li>
     <li>The names that appears are lower cased and with no special
     characters</li>
@@ -36,14 +39,43 @@ subtitle: Measure the road safety in Geneva
   <p id="outputcontent">Choose a race and the results will display here.</p>
 </div>
 
+<p> The riskiest roads are:
+  <ul>
+    <li> route du mandement:  	6.000 </li>
+    <li> route de chancy: 	    4.987 </li>
+    <li> route de saint julien: 4.458 </li>
+  </ul>
+</p>
+
 
 <p> Few more notes:
   <ul>
-    <li> Risk range: [1,6]. 1 being the minimal risk and 6 the maximal</li>
-    <li> Mean risk: </li>
+    <li> Risk range: [1,6]
+      <ul>
+        <li> 1 --> minimal risk </li>
+        <li> 6 --> maximal risk </li>
+      </ul>
+    </li>
+    <li> Mean risk: 1.893 </li>
+    <li> Percentiles Risks:
+      <ul>
+        <li> 0.25:    1.277 </li>
+        <li> 0.50:    1.671 </li>
+        <li> 0.75:    2.185 </li>
+      </ul>
+    </li>
   </ul>
-  Here the risk is computed only for the incidents
+  For further details (in particular about the computation of the risk),
+   please refer to the
+   <a href="https://www.google.ch/">Jupyter Notebook</a>.
+   <br>
+  Moreover, here the risk has been computed only for the incidents involving cars,
+  but it has been computed for many other categories in the above mentioned Notebook.
 </p>
+
+
+
+
 
 
 
