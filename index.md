@@ -13,13 +13,13 @@ We feel the roads security is an important apsect of our lifes and thus wanted t
 
 ## Structure:
 
-To present the results we divided the website into 3 smaller parts:
-1. [A visualisation of accidents and understanding of the dynamics in question](https://www.google.ch)
-2. [Full analysis about the causes and consequences](https://www.google.ch)
-3. [The risk calculator](https://www.google.ch)
+To present the results we divided the website into 4 smaller parts:
+1. [A General Overview](pages/Gilcompa)
+2. [A visual story](/pages/Milani)
+3. [The risk calculator](/pages/risk_calculator)
+4. [Safety maps](/pages/safety_map) proof of concept
 
-If you wanna know more about this project, do not hesitate to visit the [about](https://www.google.ch) page. You will learn about the context in which this project has been realised and about the Team.  
-Then you can browse the [References](https://www.google.ch), which are the website from which we got inspiration and support, maybe they can be usefull for you as well!
+If you wanna know more about this project, do not hesitate to visit the about page
 
 ## Content
 
@@ -40,23 +40,9 @@ This part is composed by several subparts:
 This last and smaller part is just to give you a taste of what can be then done. The working principle is that we compute a risk for each road with a given metric. We can then choose the safest route to travel from point **A** to point **B**. E.g. this could be used as an add-on to itinerary calculator applications for Google maps of the SBB/CFF application.
 
 
-### To the team:
-- In the **pages** folder you will find a markdown file with your name. Feel free to experiment in it and if you feel so begin to write your part. Note that you can also write it in jupyter notebook and then copy and paste it whenever you feel like it!.  
-**NOTE:** If you write it in jupyter notebook, it will be about the same, but try out sometimes that the sintax is the same than here: e.g. if you want to include latex (like it is easily done in jupyter notebook) we should include a piece of code for it, so keep me updated! :)
-- Feel free to modify the _about.md_ in **pages** folder as well, it is written by the team, for the team ;)
-- If you wish you can also modify this file (i.e. _index.md_ in the global directory) but please be careful!
-- For the other files, if you are not sure of what you are doing, do not hesitate to contact me :) you can also experiment on your local copy of the website!  
 
 
-### Special thanks:
 
-- Leaflet [examples](http://leafletjs.com/examples.html)
-- [Bokeh plots and jekyll](https://briancaffey.github.io/2017/01/23/bokeh-plots-on-jekyll.html)  
-- Bokeh doc used intensivly, espescially about [components](http://bokeh.pydata.org/en/latest/docs/user_guide/embed.html#components)  
-- The [Texas interactive plot](https://bokeh.pydata.org/en/latest/docs/gallery/texas.html) from bokeh
-- Some [Basis](https://www.w3schools.com/html/html_css.asp) for understanding HTML, CSS and JS
-- For [bar plots](https://scrimba.com/p/pEKMsN/cast-1953) (even if not used yet)
-- [Video](https://www.youtube.com/watch?v=SWVjQsvQocA) about Jekyll
 
 
 
