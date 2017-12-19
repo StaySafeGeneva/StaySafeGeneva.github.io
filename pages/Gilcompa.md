@@ -1,7 +1,7 @@
 ---
 layout: bar_chart
 title: General overview
-subtitle: Overview
+subtitle:
 ---
 {% include xav_script.html %}
 
