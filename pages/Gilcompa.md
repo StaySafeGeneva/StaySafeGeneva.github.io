@@ -1,13 +1,3 @@
----
-layout: bar_chart
-title: Xavier
-subtitle: Gilcompa
----
-
-
-{% include xav_script.html %}
-{% include xav_div.html %}
-
 
 
 Road safety has always a been a first in the list matter for administration. An exploratory analysis has been done in order to understand better the accidents in Geneva. To get a general overview, we have asked ourselves the following questions:
