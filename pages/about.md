@@ -4,7 +4,7 @@ title: About
 subtitle: The team and beyond
 ---
 
-## The context of this analysis
+## Context
 Realised in the context of the course of EPFL **Applied Data Analysis** (CS-401) teached by Robert West
 
 ## Members
