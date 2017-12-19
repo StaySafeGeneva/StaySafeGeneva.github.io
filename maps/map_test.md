@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Map embedded
+title: Map embedded2
 ---
 
 {% include num_consequences.html %}
