@@ -46,7 +46,13 @@ since as students without driving licences, we are personally interested in inve
 We already see different clusters of accidents in this map: while on the Pont du Mont Blanc the only cause responsible for accidents is 'accidents par tamponament', the crossroad just north of the bridge is heavily carachterized by 'accidents par derapage'. Let's now zoom and hover with the mouse on such accidents to get more data! If you do it, you'll discover that such accidents are:
 - mainly caused by speed or alcool
 - the accidents caused by alcool happened mainly during night time, especially during the weekend
-This information suggest us that it could be interesting visualize the same accidents, but now let's color our datapoints according to the time:
+
+Let's take a look at the following table then:
+
+![](../img/dayhour_alcohol.png){: .align-center}
+
+The fact that accidents caused by alcohol happen mostly at night-time is indeed well known; still it is interesting to see how this particular crossroad, in this particular location, is one of the places where such accidents happen!  
+Let's continue our analysis in this direction: let's colour our datapoints according to the time:
 
 {% include day_and_night.html %}
 
@@ -57,9 +63,10 @@ Let's now focus our attention to only one category of accidents: the accidents i
 
 {% include pietons.html %}
 
-Looking at this visualization, our attention immediately falls on the north-west part of the map: there's an light, but unusual concentration of accidents involving pedestrians in that zone. With a simple zoom, we discover that the center of such distribution could be identified with the train station of Geneve. Again by hovering onto the points, we can see how most of the accidents close to the train station are actually not caused by the drivers, but by the pedestrians themselves, not paying attention, not respecting the traffic lights, and not using the pedestrian crossing, even if they are just 50 meters away. This is understandable if only we think to the usual chaos of pedestrians close to such an important train station; however, another suggestion to the institutions could be sensibilize more the pedestrians close to the train station, and maybe prioritize pedestrian traffic more with special lanes or, in a maybe too optimistic future, special overpasses, to eliminate the problem at the root.
+Looking at this visualization, we see that on the Pont du Mont Blanc none of the accidents involved pedestrians: instead, this time our attention immediately falls on the north-west part of the map: there's an light, but unusual concentration of accidents involving pedestrians in that zone. With a simple zoom, we discover that the center of such distribution could be identified with the train station of Geneve. Again by hovering onto the points, we can see how most of the accidents close to the train station are actually not caused by the drivers, but by the pedestrians themselves, not paying attention, not respecting the traffic lights, and not using the pedestrian crossing, even if they are just 50 meters away. This is understandable if only we think to the usual chaos of pedestrians close to such an important train station; however, another suggestion to the institutions could be sensibilize more the pedestrians close to the train station, and maybe prioritize pedestrian traffic more with special lanes or, in a maybe too optimistic future, special overpasses, to eliminate the problem at the root.
 
-# A complete overview
+# A more complete overview
+
 Others interesting patterns all around this block of Genève could be caught by this visualization: dangerous turns, particularly dangerous crossroads, secondary roads with a lot of accidents involving pedestrians, and so on. In the following visualization provides you with a more complex, but yet not complete overview of the dataset. Experimenting with colours, subsets of the dataset and features, a lot of micro patterns appear, opening us the understanding of this complex dataset.
 # Conclusions
 Similar analysis have proven to be extremely effective: in these examples we were able to completey exploit the data in our possess to efficiently recognize patterns at different lenght-scales. Once discovered such patterns, it could be possible to deepen such analysis by adding more effective interactivity 
