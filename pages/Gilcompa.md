@@ -1,4 +1,3 @@
-a
 Road safety has always a been a first in the list matter for administration. An exploratory analysis has been done in order to understand better the accidents in Geneva. To get a general overview, we have asked ourselves the following questions:
 * **When** are the accidents happen?
 
@@ -27,13 +26,8 @@ Is there the same risk during the morning and during the evening? It is known th
 > ### The time of the day you may be more aware is at 17h
 ![Image](../img/acc_hour.png)
 
-
-## Where?
-Where are the hot spots in geneva? 
-add heatmap
-![Image]()
-
-
+If we take in account the day of the week,
+![Image](../img/dayhour_all.png)
 
 ## How and Why? 
 Which are the group of accidents with more ocurrence? To focus our research, we will mainly focus on the three type of accidents with more ocurrence.
@@ -50,6 +44,11 @@ An accident can be classified as **Mortal, Severe, Mild and Unknown**. Let's che
 * Tha amount of **accidents involving pedestrian** with severe consequences is considerable.
 
 > ### From the conequences point of view, accidents involving pedestrians are also relevant
+
+
+![Image](../img/dayhour_drift.png)
+![Image](../img/dayhour_pedestrians.png)
+![Image](../img/dayhour_traffic.png)
 
 What are the main causes of the three more important accidents?
 
