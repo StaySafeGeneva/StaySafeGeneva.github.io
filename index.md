@@ -7,14 +7,18 @@ use-site-title: true
 
 
 
-We feel the roads security is an important apsect of our lifes and thus wanted to do something in order to improve it! As a result we decided to make this project, hoping that we will sensibilize the citizen of Geneva and ,_why not_, also the authorities, so that in a near future our roads will be safer!  
+Road safety has always an important matter for city administrations. In particular, traffic accidents have increased during last years in Switzerland [http://lenews.ch/2017/06/23/swiss-traffic-worse-in-2016-especially-in-lausanne/]. Nowadays, all the accidents data from 2010 to 2016 of the region of Geneva, is available. So why not use this data to help the administration and the road users to apply more detailed preventive measures? 
 
 ![](../img/Geneva panorama.jpg){: .align-center}
 
+Our purpose of this project is to understand better the Geneva accidents in order to provide in the future, **real-time located preventive measures** in form of digital panels advice, sporadic police controls or giving input information to the future self-driving cars. 
+In a more digitalized world, there will be more and more cities that provide complete and rich information about the road traffic data    and the exploratory analysis could be sclaed in other cities.  
+
+
 ## Structure:
 
-To present the results we divided the website into 4 smaller parts:
-1. [Getting started](pages/Gilcompa)
+This website is devide in four sections:
+1. [Getting started](pages/Gilcompa) where 
 2. [A visual story](/pages/Milani)
 3. [The risk calculator](/pages/risk_calculator)
 4. [Safety maps](/pages/safety_map) proof of concept
