@@ -100,5 +100,3 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 
 ## How is it related the road state and the group accident?
 ![Image](../img/acc_stateroad.png)
-
-
