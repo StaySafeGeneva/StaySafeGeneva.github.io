@@ -113,4 +113,6 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 
 
 ## Which is the accident group with more ocurrences for each mean of transport?
+![Image](../img/tourism_transp.png)
+
 ![Image](../img/other_transp.png)
