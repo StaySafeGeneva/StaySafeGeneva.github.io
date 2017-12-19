@@ -23,8 +23,7 @@ But when is the day of the week with more number of accidents in average? From M
 
 <br>
 <br>
-<br>
-<br>
+
 
 ## Is there the same risk during the morning and the evening?
 It is known that the traffic is more dense in the morning or in the afternoon, when people go or come back home. We observe that it also correlated with the number of accidents.
@@ -32,8 +31,6 @@ It is known that the traffic is more dense in the morning or in the afternoon, w
 
 ![Image](../img/acc_hour.png)
 
-<br>
-<br>
 <br>
 <br>
 
@@ -64,8 +61,6 @@ The number of accidents during the day is larger than during the night. However,
 
 <br>
 <br>
-<br>
-<br>
 
 ## Can be all the accidents classified equally?
 Depending the consequence of the accident, it can be classified as **Mortal, Severe, Mild and Unknown**. Let's check how the split is done comparing the accident group and the consequences:
@@ -78,8 +73,6 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 
 <br>
 <br>
-<br>
-<br>
 
 
 ## What are the main causes of the three more important accidents?
@@ -88,20 +81,15 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 * One of the main causes of the accidents involving pedestrian is the pedestrian attitude itself.
 * For all the three accidents type, the driver or inattention of the driver is an important cause.
 
-> ### The momentary innatention represents the 29% (40 accidents per month) of the total number of accidents of three main accident groups and the alcohol influence represents the 17% (23 accidents per month).
+> ### The momentary innatention represents the 29% (40 accidents per month) of the total number of accidents of three main accident groups. Alcohol influence represents the 17% (23 accidents per month).
 
 <br>
 <br>
-<br>
-<br>
-
 
 ## Have the number of accidents due to the alchool influence increased during last years?
 {% include num_consequences.html %}
 > ### It is not observed an evolution on the accidents consequence during the last years, hence the increase of the number of accidents. 
 
-<br>
-<br>
 <br>
 <br>
 
