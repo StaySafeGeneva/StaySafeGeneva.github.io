@@ -3,6 +3,8 @@ layout: page
 title: Map embedded
 ---
 
+{% include num_consequences.html %}
+
 
 ### main_causes_old
 
