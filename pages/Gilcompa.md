@@ -54,6 +54,12 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 > ### The momentary innatention represents the 29% (40 accidents per month) of the total number of accidents of three main accident groups and the alcohol influence represents the 17% (23 accidents per month).
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Have the number of accidents due to the alchool influence increased during last years?
 {% include xav_div.html %}
