@@ -33,7 +33,7 @@ With this first visualization we can identify the roads and the blocks of Genèv
 
 Aren't you curious to better understand the dynamics and the reasons of why so many accidents happen on such a particular location? Well, if you are, follow us in the (sad) story of the Pont du Mont Blanc.
 
-< Ready to start? Let's go!
+> ## Ready to start? Let's go!
 
 # The (sad) story of Pont du Mont Blanc
 
@@ -41,8 +41,10 @@ Using the data from section 'Getting Started' we already know that more than 60%
 - 'accidents par tamponament'
 - 'accidents par derapage ou perte de maitrise'
 - 'accident en parquant'
+
 In the map hereunder we show only the accidents caused by these causes, plus the following category:
 - 'accidents impliquant des pietons'
+
 since as students without driving licences, we are personally interested in investigating also this category of accidents!
 
 {% include main_causes.html %}
@@ -62,8 +64,8 @@ Let's continue our analysis in this direction: let's colour our datapoints accor
 
 {% include day_and_night.html %}
 
-- the accidents caused by alcool happened mainly during night time, especially during the weekend
-We now have the visual confirmation that the accidents that happened in that crossroad north of the Pont du Mont Blanc happend mainly during night time; more in general, if we zoom out and we observe also the other crossroads, we can recognize that all the accidents happened during night-time in the center of Geneve are mailny concentrated on crossroads, and on main streets.
+the accidents caused by alcool happened mainly during night time, especially during the weekend. We now have the visual confirmation that the accidents that happened in that crossroad north of the Pont du Mont Blanc happend mainly during night time; 
+> more in general, if we zoom out and we observe also the other crossroads, we can recognize that all the accidents happened during night-time in the center of Geneve are mailny concentrated on crossroads, and on main streets.
 
 > ### Let's now focus our attention to only one category of accidents: the accidents involving pedestrians.
 
