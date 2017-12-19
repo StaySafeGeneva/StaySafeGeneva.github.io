@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 
 Road safety has always a been a first in the list matter for administration. An exploratory analysis has been done in order to understand better the accidents in Geneva. To get a general overview, we have asked ourselves the following questions:
 * **When** are the accidents happen?
@@ -34,7 +32,7 @@ Is there the same risk during the morning and during the evening? It is known th
 > ### The time of the day you may be more aware is at 17h
 ![Image](../img/acc_hour.png)
 
-## Which are the more recurrent type of accident? 
+## Which are the more recurrent type of accident?
 > ### Drift, Traffic jam collision and Parking accidents are the accident group with more ocurrence.
 ![Image](../img/acc_gr.png)
 
@@ -59,16 +57,9 @@ What are the main causes of the three more important accidents?
 
 ![Image](../img/acc_gr_causeg.png)
 * **Drifting accidents** are mainly caused by the driver state or distraction. In addition, the speed is the third cause for this kind of accidents.
-* One of the main causes of the accidents involving pedestrian is the pedestrian attitude itself. 
+* One of the main causes of the accidents involving pedestrian is the pedestrian attitude itself.
 * For all the three accidents type, the driver or inattention of the driver is an important cause.
 
 > The momentary innatention represents the 29% (40 accidents per month) of the total number of accidents of three main accident groups and the alcohol influence represents the 17% (23 accidents per month).
 
 Has the number of accidents due to the alchool influence increased during the years?
-
-
-
-
-
-
-
