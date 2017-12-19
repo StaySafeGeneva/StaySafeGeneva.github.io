@@ -76,7 +76,11 @@ permalink: /pages/risk_calculator/
   the traffic. We computed this risk for several sub-categories of instances involved e.g. only
   for accidents involving pietons, bikes and so on. <br>
   <b> Finally</b>, for the risk to be more "attractive" we rescaled it from 1 to 6, which the
-  one you have seen above (only for accidents involving cars).
+  one you have seen above (only for accidents involving cars). <br>
+  We decided not to show the roads for which we had no data (either no accident or no traffic)
+  such that it is explicit that we do not have data for thoses cases, instead of putting the risk
+  to the minimum (one). Moreover, note that the risk have been computed only using the accidents of 2015
+  for technical reasons seen in the notebooks, but can be extended with almost no efforts.
 
 <p>
   For further details (in particular about the computation of the risk),
