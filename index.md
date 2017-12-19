@@ -7,7 +7,7 @@ use-site-title: true
 
 
 
-Road safety has always an important matter for city administrations. In particular, traffic accidents have increased during last years in Switzerland [http://lenews.ch/2017/06/23/swiss-traffic-worse-in-2016-especially-in-lausanne/]. Nowadays, all the accidents data from 2010 to 2016 of the region of Geneva, is available. So why not use this data to help the administration and the road users to apply more detailed preventive measures? 
+Road safety has always an important matter for city administrations. In particular, traffic accidents have increased during last years in Switzerland[link](http://lenews.ch/2017/06/23/swiss-traffic-worse-in-2016-especially-in-lausanne/). Nowadays, all the accidents data of the Geneva region of Geneva are available. So why not use this data to sensibilize the citizens and help the administration to apply more detailed preventive measures? 
 
 ![](../img/Geneva panorama.jpg){: .align-center}
 
