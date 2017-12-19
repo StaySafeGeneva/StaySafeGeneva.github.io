@@ -49,7 +49,7 @@ We already see different clusters of accidents in this map: while on the Pont du
 
 Let's take a look at the following table then:
 
-![](../img/dayhour_alcohol.png){: .align-center}
+![image](../img/dayhour_alcohol.png)
 
 The fact that accidents caused by alcohol happen mostly at night-time is indeed well known; still it is interesting to see how this particular crossroad, in this particular location, is one of the places where such accidents happen!  
 Let's continue our analysis in this direction: let's colour our datapoints according to the time:
