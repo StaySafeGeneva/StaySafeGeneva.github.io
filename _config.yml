@@ -27,12 +27,14 @@ navbar-links:
     - Test leaflet: "test_leaflet"
     - Test Bokeh: "plotting"
     - lala: "lala"
-    - Risk Generator: "risk"
     - raw Map: "maps/map1"
     - Embedded map: "maps/map_test"
   Milani:   "pages/Milani"
   Gilcompa: "pages/Gilcompa"
-  Zampieri: "pages/Zampieri"
+  Risk Applications:
+    - Risk Calculator: "pages/risk_calculator"
+    - Safety Maps: "pages/safety_map"
+
   About: "pages/about"
   References:
     - Appendix: "pages/appendix"

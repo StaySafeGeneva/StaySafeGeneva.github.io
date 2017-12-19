@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Risk calculator
-subtitle: An overview
+title: Safety maps
+subtitle: Proof of concept
 ---
 
 Never wanted to choose a route for it **safety** and not only for its rapidity? Or maybe you have children and you want them to take the **safest** route late at night? Those are the key concepts behind the risk calculator! We want **YOU** to **StaySafe!**.

@@ -1,0 +1,131 @@
+---
+layout: page
+title: Risk Calculator
+subtitle: Measure the road safety in Geneva
+---
+
+<p>
+  The Risk calculator computes the safety of the roads
+  of Geneva. It can easily be generalised to other Swiss Cities and could
+  also be used worldwide with a bit more of an effort.
+</p>
+
+<p>
+  Few notes:
+  <ul>
+    <li>Not all the roads of Geneva are in our dataset, but begin
+    entering a road name and let the autocompletion guide you!</li>
+    <li>The names that appears are lower cased and with no special
+    characters</li>
+  </ul>
+</p>
+
+
+<div id="searchfield">
+  <h3>Search for a road... <a id="randomlink" onclick="displayRandom();">or
+      feel lucky !</a></h3>
+  <form>
+    <input type="text" name="race" class="biginput" id="autocomplete"
+    value="Type a road name here..."
+    onblur="if (this.value==''){this.value='Type a road name here...';}"
+    onfocus="if (this.value!=''){this.value='';}">
+  </form>
+</div>
+
+<div id="outputbox">
+  <p id="outputcontent">Choose a race and the results will display here.</p>
+</div>
+
+
+<p> Few more notes:
+  <ul>
+    <li> Risk range: [1,6]. 1 being the minimal risk and 6 the maximal</li>
+    <li> Mean risk: </li>
+  </ul>
+  Here the risk is computed only for the incidents
+</p>
+
+
+
+
+<script type="text/javascript">
+// Query
+var url = window.location.href;
+var raceQuery = null;
+if (url.split("?").length > 1) {
+  raceQuery = url.split('?').pop().split('=').pop();
+}
+
+
+// Datas hashtable
+// Races is not used, but is kept as an example
+var races = [
+  {% for race in site.data.road_risk.Risk_NB_VOITURES_TOURISME %}
+  {value:"{{race[0]}}",data:"{{race[1]}}"},
+  {% endfor %}
+];
+
+// roads to get the risk
+var roads = [
+  {% for road in site.data.road_risk.Risk_NB_VOITURES_TOURISME %}
+  {value:"{{road[1]}}",data:"{{road[0]}}"},
+  {% endfor %}
+];
+
+// roads for the autocompletion (value should be the name of the road)
+var roads_inverted = [
+  {% for road in site.data.road_risk.Risk_NB_VOITURES_TOURISME %}
+  {value:"{{road[0]}}",data:"{{road[1]}}"},
+  {% endfor %}
+];
+
+// Initializations
+var currentRace = null;
+var myMap = null;
+</script>
+
+
+
+<script type="text/javascript">
+
+/* Display information for a randomly chosen race */
+function displayRandom() {
+  // Get random index
+  var entry = Math.floor(Math.random() * races.length);
+  // Display the road risk
+  Display(roads[entry].data);
+}
+
+// Fucntion to display road and risk
+function Display(road) {
+  var res = road.replace(/\+/g, " ");
+  $('#outputbox').empty()
+  index = roads.findIndex(x => x.data==res);
+
+  if (index >= 0) {
+    var title = "<h2>"+ "Road: "+ roads[index].data + "</h2>"
+    var title2 = "<h2>"+ "  Risk: "+ roads[index].value +"</h2>"
+    $('#outputbox').append(title);
+    $('#outputbox').append(title2);
+  }
+  else {
+    var title = "<h2>"+ "We don't have a risk for this road" +"</h2>"
+    $('#outputbox').append(title);
+  }
+}
+
+/* Callback function for race selection through search bar */
+$(function(){
+  $('#autocomplete').autocomplete({
+    lookup: roads_inverted,
+    onSelect: function (suggestion) {
+      Display(suggestion.value);
+    }
+  });
+});
+
+// Page load end : check if a query has been made
+if (raceQuery) {
+  Display(raceQuery);
+}
+</script>
