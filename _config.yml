@@ -28,7 +28,7 @@ navbar-links:
     - Test Bokeh: "plotting"
     - lala: "lala"
     - Test HTML: "retest"
-    - raw Map: "_maps/main_causes_nonshaded_points.html"
+    - raw Map: "map1.html"
   Milani:   "pages/Milani"
   Gilcompa: "pages/Gilcompa"
   Zampieri: "pages/Zampieri"
