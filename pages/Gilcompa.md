@@ -10,12 +10,6 @@ Road safety has always a been a first in the list matter for administration. An 
 
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ## When does the accidents happen?
 All the news evoque to an increase of accidents during last years. The evolution of number of accidents from 2010 to 2016 in Geneva shows that from 2012 to 2014 there has been a **strong increase**, however it has been stabilized during the last two years.
@@ -40,30 +34,30 @@ It is known that the traffic is more dense in the morning or in the afternoon, w
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+
 
 ## Which are the more recurrent type of accident and when?
 > ### Drift, Traffic jam collision and Parking accidents are the accident group with more ocurrence.
 
 ![Image](../img/acc_gr.png)
 
-The number of accidents during the day is larger than during the night. However, the number of **drifting accidents** is nearly the same during the day than during the night.
-> ### Please, _don't lose the attention_ and _moderate the speed_ during the night!
+The number of accidents during the day is larger than during the night. However, the number of **drifting accidents** is nearly the same during the day than during the night. In addition, it is observed on the data that **speed is one of the main causes of the accidents at night**.
 
-
+If we analyse the number of accidents per hour of the day and per type of accidents, it can be detected that:
+* Traffic jam collision useally happen at 17h.
+* **Drift accidents are uniformly distributed during the day**.
 ![Image](../img/hour_acc.png)
 
+Let's check the same by day of the week:
+![Image](../img/day_acc.png)
+* Most of drift accidents are during the weeknd!
+* Traffic jam collison mostly happen on Friday.
+
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+
 
 ## Can be all the accidents classified equally?
 Depending the consequence of the accident, it can be classified as **Mortal, Severe, Mild and Unknown**. Let's check how the split is done comparing the accident group and the consequences:
@@ -78,10 +72,7 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+
 
 ## What are the main causes of the three more important accidents?
 ![Image](../img/acc_gr_causeg.png)
@@ -95,10 +86,7 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+
 
 ## Have the number of accidents due to the alchool influence increased during last years?
 {% include xav_div.html %}
@@ -108,10 +96,7 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+
 
 ## How is it related the road state and the group accident?
 ![Image](../img/acc_stateroad.png)
