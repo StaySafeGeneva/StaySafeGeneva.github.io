@@ -1,7 +1,7 @@
 ---
 layout: bar_chart
-title: Xavier
-subtitle: Gilcompa
+title: General overview
+subtitle: Overview
 ---
 {% include xav_script.html %}
 
