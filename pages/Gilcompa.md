@@ -105,3 +105,12 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 
 ## How is it related the road state and the group accident?
 ![Image](../img/acc_stateroad.png)
+
+<br>
+<br>
+<br>
+<br>
+
+
+## Which is the accident group with more ocurrences for each mean of transport?
+![Image](../img/other_transp.png)
