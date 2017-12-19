@@ -6,7 +6,8 @@ subtitle: The team and beyond
 
 ## Context
 Realised in the context of the course of EPFL **Applied Data Analysis** (CS-401) teached by Robert West
-
+Here is linked the team [Github repository](https://github.com/LucaZampieri/ADA_homework_LMX/) that we used 
+for the whole course.
 
 ## Members
 * [Xavier](https://people.epfl.ch/xavier.gilcompanys?lang=en)
@@ -16,6 +17,3 @@ Realised in the context of the course of EPFL **Applied Data Analysis** (CS-401)
 
 ## Our history as a team
 It was love at first sight, in a rainy thursday morning, and that's all we remember. From that moment we ate, worked, slept and survived together... Hoping that this will be the begining of an era of collaboration!
-
-
-
