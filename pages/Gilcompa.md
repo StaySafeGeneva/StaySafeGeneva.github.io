@@ -38,7 +38,7 @@ The number of accidents during the day is larger than during the night. However,
 Depending the consequence of the accident, it can be classified as **Mortal, Severe, Mild and Unknown**. Let's check how the split is done comparing the accident group and the consequences:
 ![Image](../img/acc_gr_con.png)
 * **Drifting accidents** and **accidents involving pedestrian** are **the most mortal**.
-* **Traffic jam's collision accidents** and again, the **drifting accidents** are the ones with more severe consequenses.
+* **Traffic jam's collision accidents** and **drifting accidents** are the ones with more severe consequenses.
 * Tha amount of **accidents involving pedestrian** with severe consequences is considerable.
 
 > ### From the conequences point of view, accidents involving pedestrians are also relevant
@@ -54,3 +54,6 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 ## Have the number of accidents due to the alchool influence increased during last years?
 {% include xav_div.html %}
 > ### It is not observed an evolution on the accidents consequence during the last years, hence the increase of the number of accidents. 
+
+## How is it related the road state and the group accident?
+![Image](../img/acc_stateroad.png)
