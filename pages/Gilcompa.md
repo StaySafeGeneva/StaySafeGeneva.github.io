@@ -26,13 +26,15 @@ It is known that the traffic is more dense in the morning or in the afternoon, w
 ![Image](../img/acc_hour.png)
 
 
-## Which are the more recurrent type of accident?
+## Which are the more recurrent type of accident and when?
 > ### Drift, Traffic jam collision and Parking accidents are the accident group with more ocurrence.
 ![Image](../img/acc_gr.png)
 
 The number of accidents during the day is larger than during the night. However, the number of **drifting accidents** is nearly the same during the day than during the night.
 > ### Please, _don't lose the attention_ and _moderate the speed_ during the night!
 
+
+![Image](../img/hour_acc.png)
 
 ## Can be all the accidents classified equally?
 Depending the consequence of the accident, it can be classified as **Mortal, Severe, Mild and Unknown**. Let's check how the split is done comparing the accident group and the consequences:
@@ -50,7 +52,8 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 * One of the main causes of the accidents involving pedestrian is the pedestrian attitude itself.
 * For all the three accidents type, the driver or inattention of the driver is an important cause.
 > ### The momentary innatention represents the 29% (40 accidents per month) of the total number of accidents of three main accident groups and the alcohol influence represents the 17% (23 accidents per month).
-
+<br>
+<br>
 
 ## Have the number of accidents due to the alchool influence increased during last years?
 {% include xav_div.html %}
@@ -60,4 +63,4 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 ## How is it related the road state and the group accident?
 ![Image](../img/acc_stateroad.png)
 
-![Image](../img/hour_acc.png)
+
