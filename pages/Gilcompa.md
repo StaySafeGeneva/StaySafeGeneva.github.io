@@ -110,9 +110,14 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 
 
 ## Which is the accident group with more ocurrences for each mean of transport?
-The more populated vechicles are Tourism. So let's ivestigate this type of vehicle alone.
+The more populated vechicles are Tourism. So let's investigate it alone.
 ![Image](../img/tourism_transp.png)
-*
+> ### If you drive a car, it more probable to have a traffic jam collision than a drift accident. 
 
 
+Then, the other trasnports are summerized in the following plot:
 ![Image](../img/other_transp.png)
+* For heavy transports, the more recurrent accidents are: take over accidents and traffic jam collisions.
+* For motorbikes, the more common accident is the drifting accidents. The second more recurrent accident is by leaving a road.
+
+> ### The more recurrent accident for public transport is those involving pedestrians!
