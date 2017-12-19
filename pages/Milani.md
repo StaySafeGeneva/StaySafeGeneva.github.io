@@ -4,7 +4,7 @@ Here martino should write his part
 
 
 <hr>
-[marticulo](/maps/map_test.html)
+[marticulo](../maps/map_test.html)
 
 [Appendix](appendix.md)
 
