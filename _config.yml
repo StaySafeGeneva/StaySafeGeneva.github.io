@@ -29,8 +29,8 @@ navbar-links:
     - lala: "lala"
     - raw Map: "maps/map1"
     - Embedded map: "maps/map_test"
-  Milani:   "pages/Milani"
-  Gilcompa: "pages/Gilcompa"
+  An Overview: "pages/Gilcompa"
+  A visual story:   "pages/Milani"
   Risk Applications:
     - Risk Calculator: "pages/risk_calculator"
     - Safety Maps: "pages/safety_map"
