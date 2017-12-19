@@ -6,9 +6,9 @@ subtitle: Proof of concept
 
 Never wanted to choose a route for it **safety** and not only for its rapidity? Or maybe you have children and you want them to take the **safest** route late at night? Those are the key concepts behind the risk calculator! We want **YOU** to **StaySafe!**.
 
-This is more a proof of concept than a real tool (see limitations in the [Jupyter Notebook](https://www.google.ch/) associated). But here is an example, and you are welcome to play with the [Jupyter Notebook](https://www.google.ch/)
+This is more a proof of concept than a real tool (see limitations in the [Jupyter Notebook](https://www.google.ch/) associated). But here is an example, and you are welcome to play with the Jupyter Notebook above mentioned!
 
-#### From Vermont to Quai du Mont-Blanc
+#### An example: from Vermont to Quai du Mont-Blanc
 If we want to go from Vermont to Quai du Mont-Blanc in Geneva, Google maps would give us three choices:  
 _here results for the 16/12/2017, 17h30:_
 
@@ -25,13 +25,7 @@ As previously said, this is very uncertain, it advised to take a look to the [Ju
 
 <hr>
 
-#### Risk per road
 
-One could also wonder what is the risk if we drive on a given road... Here you can search for it!
-
-PUT TOOL HERE
-
-Where the risk displayed is the risk if we
 
 
 
