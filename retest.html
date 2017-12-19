@@ -20,6 +20,12 @@ permalink: /retest/
   <p id="outputcontent">Choose a race and the results will display here.</p>
 </div>
 
+The Risk is an a value going from 1 for the safest road to 6 for the riskiest road.
+We chose 1 for minimal risk, since there is alway a risk!
+For more details about the risk calculation (and discussion), please refer to the
+ Notebook about risk in the appendix section of the website.
+
+
 
 <script type="text/javascript">
 // Query
@@ -57,9 +63,10 @@ function displayRandom() {
   $('#outputbox').empty()
 
   // ---- TITLE ----
-  index = races.findIndex(x => x.data=="avenue de france");
-  var title = "<h2>"+ "Road: " + races[entry].data + "  Risk: "+ races[entry].value +"</h2>"
+  index = races.findIndex(x => x.data=="avenue de france");  var title = "<h2>"+ "Road: "+ races[entry].data + "</h2>"
+  var title2 = "<h2>"+ "  Risk: "+ races[entry].value +"</h2>"
   $('#outputbox').append(title)
+  $('#outputbox').append(title2)
 
   //loadAndDisplay(races[entry].data)
 }
@@ -114,8 +121,10 @@ if (raceQuery) {
   index = races.findIndex(x => x.data==res);
 
   if (index >= 0) {
-    var title = "<h2>"+ "Road: "+ races[index].data + "  Risk: "+ races[index].value +"</h2>"
+    var title = "<h2>"+ "Road: "+ races[index].data + "</h2>"
+    var title2 = "<h2>"+ "  Risk: "+ races[index].value +"</h2>"
     $('#outputbox').append(title);
+    $('#outputbox').append(title2);
   } else {
     var title = "<h2>"+ "We don't have a risk for this road" +"</h2>"
     $('#outputbox').append(title);

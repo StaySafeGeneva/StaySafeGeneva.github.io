@@ -4,6 +4,16 @@ layout: null
 
 @import url("pygment_highlights.css");
 
+/* ---- colors hopsuisse.github.io -------------  */
+/* Website colors
+$hopsuisse-red: #bb1624;
+$hopsuisse-light-gray: #f1f1f1;
+$hopsuisse-gray: #e1e1e1;
+$hopsuisse-medium-gray: #aeaeae;
+$hopsuisse-dark-gray: #666666;
+*/
+
+
 
 /* --- Added by Luca  --- */
 .chart div {
@@ -42,6 +52,65 @@ layout: null
     margin: auto;
     width: 50%;
 }
+
+/*  ---- from ondines website --------  */
+/* Autocomplete style */
+#randomlink {
+  cursor: pointer;
+}
+.autocomplete-suggestions {
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  cursor: default;
+  overflow: auto;
+}
+.autocomplete-suggestion {
+  padding: 10px 5px;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.autocomplete-selected {
+  background: #f1f1f1;
+}
+.autocomplete-suggestions strong {
+  font-weight: normal;
+  color: #bb1624;
+}
+#searchfield {
+  margin: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+#searchfield form {
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 5px 0 0 0;
+}
+#searchfield form .biginput {
+  width: 90%;
+  height: 40px;
+  padding: 0 10px 0 10px;
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  color: #666666;
+  font-weight:normal;
+  font-size: 1.5em;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#searchfield form .biginput:focus {
+  color: #858585;
+}
+
+
+
 
 
 
