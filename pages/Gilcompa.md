@@ -51,7 +51,8 @@ An accident can be classified as **Mortal, Severe, Mild and Unknown**. Let's che
 
 > ### From the conequences point of view, accidents involving pedestrians are also relevant
 
-For Parking accidents, is difficult to define a cause of the accidents. This is why we will analyse it separately. Let's analyse then the three more important accidents to understand the main causes of them.
+What are the main causes of the three more important accidents?
+
 ![Image](../img/acc_gr_causeg.png)
 * **Drifting accidents** are mainly caused by the driver state or distraction. In addition, the speed is the third cause for this kind of accidents.
 * One of the main causes of the accidents involving pedestrian is the pedestrian attitude itself. 
@@ -61,19 +62,15 @@ For Parking accidents, is difficult to define a cause of the accidents. This is 
 
 Has the number of accidents due to the alchool influence increased during the years?
 
-![Image](../img/acc_alchool_year_cons.png)
+![Image](../img/acc_alc_hour.png)
 
+![Image](../img/acc_alc_weekday.png)
 
-
-## What?
-
-
-
-
-How does the weather affect in type of accident 
+## What and who?
+One of the 
 
 
 
 
 
-## Who
+
