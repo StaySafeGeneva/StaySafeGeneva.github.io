@@ -8,14 +8,12 @@ subtitle: The team and beyond
 Realised in the context of the course of EPFL **Applied Data Analysis** (CS-401) teached by Robert West
 
 <br>
-<br>
 
 ## Members
 * [Xavier](https://people.epfl.ch/xavier.gilcompanys?lang=en)
 * [Martino](https://people.epfl.ch/martino.milani?lang=en)
 * [Luca](https://people.epfl.ch/luca.zampieri?lang=en)
 
-<br>
 <br>
 
 ## Our history as a team
