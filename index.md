@@ -6,10 +6,10 @@ use-site-title: true
 ---
 
 
-
-Road safety has always an important matter for city administrations. In particular, traffic accidents have increased during last years in Switzerland[link](http://lenews.ch/2017/06/23/swiss-traffic-worse-in-2016-especially-in-lausanne/). Nowadays, all the accidents data of the Geneva region of Geneva are available. So why not use this data to sensibilize the citizens and help the administration to apply more detailed preventive measures? 
-
 ![](../img/Geneva panorama.jpg){: .align-center}
+
+Road safety has always an important matter for city administrations. In particular, traffic accidents have increased during last years in Switzerland ([link](http://lenews.ch/2017/06/23/swiss-traffic-worse-in-2016-especially-in-lausanne/)). Nowadays, all the accidents data of the Geneva region of Geneva are available. So why not use this data to sensibilize the citizens and help the administration to apply more detailed preventive measures? 
+
 
 Our purpose of this project is to understand better the Geneva accidents in order to provide in the future, **real-time located preventive measures** in form of digital panels advice, sporadic police controls or giving input information to the future self-driving cars. 
 In a more digitalized world, there will be more and more cities that provide complete and rich information about the road traffic data    and the exploratory analysis could be sclaed in other cities.  
@@ -18,9 +18,9 @@ In a more digitalized world, there will be more and more cities that provide com
 ## Structure:
 
 This website is devide in four sections:
-1. [Getting started](pages/Gilcompa) where 
-2. [A visual story](/pages/Milani)
-3. [The risk calculator](/pages/risk_calculator)
+1. [Getting started](pages/Gilcompa) where a general overview is provided.
+2. [A visual story](/pages/Milani) is developped to analyse some particular cases.
+3. [The risk calculator](/pages/risk_calculator) 
 4. [Safety maps](/pages/safety_map) proof of concept
 
 If you wanna know more about this project, do not hesitate to visit the about page
