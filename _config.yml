@@ -23,25 +23,20 @@ description: Website for the Project of Applied Data Analysis of EPFL, year 2017
 
 # List of links in the navigation bar
 navbar-links:
-  Tests:
-    - Test leaflet: "test_leaflet"
-    - Test Bokeh: "plotting"
-    - lala: "lala"
-    - raw Map: "maps/map1"
-    - Embedded map: "maps/map_test"
+#  Tests:
+#    - Test leaflet: "test_leaflet"
+#    - Test Bokeh: "plotting"
+#    - lala: "lala"
+#    - raw Map: "maps/map1"
+#    - Embedded map: "maps/map_test"
   An Overview: "pages/Gilcompa"
   A visual story:   "pages/Milani"
   Risk Applications:
     - Risk Calculator: "pages/risk_calculator"
     - Safety Maps: "pages/safety_map"
-
-  About: "pages/about"
-  References:
-    - Appendix: "pages/appendix"
-    - The correspong github file: "https://github.com/StaySafeGeneva/StaySafeGeneva.github.io/"
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+  About:
+    - Team and project: "pages/about"
+    - References: "pages/appendix"
 #  Home:  "https://StaySafeGeneva.github.io/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
