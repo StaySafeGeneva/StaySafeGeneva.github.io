@@ -1,6 +1,6 @@
 ---
 layout: page
-title: General overview
+title: Getting started
 subtitle:
 ---
 
