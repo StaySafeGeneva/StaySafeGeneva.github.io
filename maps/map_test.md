@@ -3,8 +3,11 @@ layout: page
 title: Map embedded
 ---
 
+
+### A first map
+
 {% include luca_map1.html %}
 
-### ntm
+### A second map
 
 {% include luca_map1.html %}
