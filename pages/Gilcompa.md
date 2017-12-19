@@ -51,9 +51,13 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 * For all the three accidents type, the driver or inattention of the driver is an important cause.
 > ### The momentary innatention represents the 29% (40 accidents per month) of the total number of accidents of three main accident groups and the alcohol influence represents the 17% (23 accidents per month).
 
+
 ## Have the number of accidents due to the alchool influence increased during last years?
 {% include xav_div.html %}
 > ### It is not observed an evolution on the accidents consequence during the last years, hence the increase of the number of accidents. 
 
+
 ## How is it related the road state and the group accident?
 ![Image](../img/acc_stateroad.png)
+
+![Image](../img/hour_acc.png)
