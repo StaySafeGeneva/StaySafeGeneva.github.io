@@ -8,13 +8,14 @@ use-site-title: true
 
 ![](../img/Geneva panorama.jpg){: .align-center}
 
-Road safety has always an important matter for city administrations. In particular, traffic accidents have increased during last years in Switzerland ([link](http://lenews.ch/2017/06/23/swiss-traffic-worse-in-2016-especially-in-lausanne/)). Nowadays, all the accidents data of the Geneva region of Geneva are available. So why not use this data to sensibilize the citizens and help the administration to apply more detailed preventive measures? 
+Road safety has always an important matter for public administration. In particular, traffic accidents have increased during last years in Switzerland ([link](http://lenews.ch/2017/06/23/swiss-traffic-worse-in-2016-especially-in-lausanne/)). Nowadays, it is available traffic accidents data of the Geneva region. 
+
+> So why not use this data to sensibilize the citizens and help the administration to apply more detailed preventive measures? 
+
+Our purpose of this project is to understand better the Geneva accidents in order to provide in the future, **real-time locally preventive measures** in form of digital panels advice, sporadic police controls or giving input information to the future self-driving cars. 
 
 
-Our purpose of this project is to understand better the Geneva accidents in order to provide in the future, **real-time located preventive measures** in form of digital panels advice, sporadic police controls or giving input information to the future self-driving cars. 
-
-
-In a more digitalized world, there will be more and more cities that provide complete and rich information about the road traffic data    and the exploratory analysis could be sclaed in other cities.  
+In a more digitalized world, there will be more and more cities providing complete and rich information about the road traffic data. Furthermore, the work done by the authors could be sclaed in other cities.  
 
 
 ## Structure:
