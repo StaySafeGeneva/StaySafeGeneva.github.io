@@ -14,7 +14,7 @@ We feel the roads security is an important apsect of our lifes and thus wanted t
 ## Structure:
 
 To present the results we divided the website into 4 smaller parts:
-1. [A General Overview](pages/Gilcompa)
+1. [Getting started](pages/Gilcompa)
 2. [A visual story](/pages/Milani)
 3. [The risk calculator](/pages/risk_calculator)
 4. [Safety maps](/pages/safety_map) proof of concept

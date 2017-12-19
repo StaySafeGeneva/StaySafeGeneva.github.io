@@ -29,7 +29,7 @@ navbar-links:
 #    - lala: "lala"
 #    - raw Map: "maps/map1"
 #    - Embedded map: "maps/map_test"
-  An Overview: "pages/Gilcompa"
+  Getting started: "pages/Gilcompa"
   A visual story:   "pages/Milani"
   Risk Applications:
     - Risk Calculator: "pages/risk_calculator"
