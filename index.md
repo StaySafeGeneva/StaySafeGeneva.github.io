@@ -15,7 +15,7 @@ We feel the roads security is an important apsect of our lifes and thus wanted t
 
 To present the results we divided the website into 3 smaller parts:
 1. [A visualisation of accidents and understanding of the dynamics in question](https://www.google.ch)
-2. [Full analysis about the causes and onsequences](https://www.google.ch)
+2. [Full analysis about the causes and consequences](https://www.google.ch)
 3. [The risk calculator](https://www.google.ch)
 
 If you wanna know more about this project, do not hesitate to visit the [about](https://www.google.ch) page. You will learn about the context in which this project has been realised and about the Team.  
