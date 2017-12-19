@@ -5,7 +5,7 @@ subtitle:
 ---
 
 
-Road safety has always a been a first in the list matter for administration. An exploratory analysis has been done in order to understand better and get a general overviewof the Geneva accidents
+An exploratory analysis has been done in order to understand better and get a general overview of the Geneva accidents.
 
 <br>
 <br>
@@ -23,6 +23,12 @@ But when is the day of the week with more number of accidents in average? From M
 
 ![Image](../img/acc_weekday.png)
 > ### **Be careful** on Friday!
+
+<br>
+<br>
+<br>
+<br>
+
 ## Is there the same risk during the morning and the evening?
 It is known that the traffic is more dense in the morning or in the afternoon, when people go or come back home. We observe that it also correlated with the number of accidents.
 > ### The time of the day you may be more aware is at 17h
@@ -103,16 +109,10 @@ Depending the consequence of the accident, it can be classified as **Mortal, Sev
 <br>
 
 
-## How is it related the road state and the group accident?
-![Image](../img/acc_stateroad.png)
-
-<br>
-<br>
-<br>
-<br>
-
-
 ## Which is the accident group with more ocurrences for each mean of transport?
+The more populated vechicles are Tourism. So let's ivestigate this type of vehicle alone.
 ![Image](../img/tourism_transp.png)
+*
+
 
 ![Image](../img/other_transp.png)
