@@ -12,6 +12,8 @@ Road safety has always an important matter for city administrations. In particul
 
 
 Our purpose of this project is to understand better the Geneva accidents in order to provide in the future, **real-time located preventive measures** in form of digital panels advice, sporadic police controls or giving input information to the future self-driving cars. 
+
+
 In a more digitalized world, there will be more and more cities that provide complete and rich information about the road traffic data    and the exploratory analysis could be sclaed in other cities.  
 
 
