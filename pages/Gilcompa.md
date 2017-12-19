@@ -42,21 +42,25 @@ It is known that the traffic is more dense in the morning or in the afternoon, w
 
 The number of accidents during the day is larger than during the night. However, the number of **drifting accidents** is nearly the same during the day than during the night. In addition, it is observed on the data that **speed is one of the main causes of the accidents at night**.
 
-If we analyse the number of accidents per hour of the day and per type of accidents, it can be detected that:
+#### Accidents per day hour
 * Traffic jam collision useally happen at 17h.
 * **Drift accidents are uniformly distributed during the day**.
 ![Image](../img/hour_acc.png)
 
-Let's check the same by day of the week:
+#### Accidents per weekday
 ![Image](../img/day_acc.png)
 * Most of drift accidents are during the weeknd!
 * Traffic jam collison mostly happen on Friday.
 
-<br>
-<br>
-<br>
-<br>
+#### Accidents per season
+![Image](../img/season_acc.png)
+* The number of accidents during the summer decrease a lot.
+* There is a huge amount of drift accidents during winter due to the slippery conditions.
 
+<br>
+<br>
+<br>
+<br>
 
 ## Can be all the accidents classified equally?
 Depending the consequence of the accident, it can be classified as **Mortal, Severe, Mild and Unknown**. Let's check how the split is done comparing the accident group and the consequences:
