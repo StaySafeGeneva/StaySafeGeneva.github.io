@@ -1,6 +1,6 @@
 ---
-layout: page
-subtitle: Visualization of the accidents in the canton of Genève from 2010 to 2016
+layout: page 
+title: Accidents in Genève from 2010 to 2016
 ---
 
 {% include main_causes_ALL.html %}
